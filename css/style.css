@@ -1571,7 +1571,7 @@ th.visible-xs,td.visible-xs{display:table-cell !important}.visible-xs-block{disp
 .kurierchikof-rs-top-menu .custom-nav-link{padding-left:15px !important;font-size:16px}
 .kurierchikof-rs-top-menu .custom-dropdown{width:95% !important;box-shadow:none !important}
 .kurierchikof-rs-top-menu .container>.navbar-collapse{margin-left:0;margin-right:0}
-.kurierchikof-rs-top-menu .container>.navbar-collapse::before{content:'';position:absolute;top:100%;left:0;width:100%;height:7px;box-shadow:0 7.6px 7.6px -3.9px rgba(0,0,0,0.09) inset}
+.kurierchikof-rs-top-menu .container>.navbar-collapse::before{content:'';position:absolute;top:100%;left:0;width:calc(100% - 30px);margin-left:15px;height:7px;box-shadow:0 7.6px 7.6px -3.9px rgba(0,0,0,0.09) inset}
 .kurierchikof-rs-top-menu .fa-ul{margin-left:0 !important}.kurierchikof-rs-top-menu .custom-thrid-line,.kurierchikof-rs-top-menu .custom-second-line,.kurierchikof-rs-top-menu .custom-first-line{flex-direction:column;align-items:flex-start;width:100%}
 .kurierchikof-rs-top-menu .custom-second-line,.kurierchikof-rs-top-menu .custom-first-line{margin-left:15px}
 .kurierchikof-rs-top-menu .custom-first-line{margin-top:25px !important}.kurierchikof-rs-top-menu .custom-second-line{align-items:flex-start}
