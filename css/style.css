@@ -1361,35 +1361,49 @@ button.close{-webkit-appearance:none;padding:0;cursor:pointer;background:transpa
 .visible-print-inline{display:none !important}.visible-print-inline-block{display:none !important}
 @font-face{font-family:'Myriad Pro Regular';src:url('../fonts/MyriadPro-Regular.eot');src:url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),url('../fonts/MyriadPro-Regular.woff') format('woff'),url('../fonts/MyriadPro-Regular.ttf') format('truetype');font-weight:normal;font-style:normal}
 @font-face{font-family:'Open Sans Regular';src:url('../fonts/OpenSans-Regular.eot');src:url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),url('../fonts/OpenSans-Regular.woff') format('woff'),url('../fonts/OpenSans-Regular.ttf') format('truetype');font-weight:normal;font-style:normal}
-@font-face{font-family:'Open Sans Semibold';src:url('OpenSans-SemiBold.eot');src:url('OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),url('OpenSans-SemiBold.woff') format('woff'),url('OpenSans-SemiBold.ttf') format('truetype');font-weight:normal;font-style:normal}
-.kurierchikof-rs-top-menu button:active,.kurierchikof-rs-support button:active,.kurierchikof-rs-top-menu button:focus,.kurierchikof-rs-support button:active{outline:none !important;box-shadow:none !important}
-.kurierchikof-rs-top-menu button::-moz-focus-inner,.kurierchikof-rs-support button::-moz-focus-inner{border:0 !important;box-shadow:none !important}
-.kurierchikof-rs-top-menu a,.kurierchikof-rs-top-menu a:hover,.kurierchikof-rs-support a,.kurierchikof-rs-support a:hover{text-decoration:none}
-.kurierchikof-rs-top-menu p,.kurierchikof-rs-top-menu h1,.kurierchikof-rs-top-menu h2,.kurierchikof-rs-top-menu h3,.kurierchikof-rs-top-menu h4,.kurierchikof-rs-top-menu h5,.kurierchikof-rs-top-menu h6,.kurierchikof-rs-top-menu a,.kurierchikof-rs-top-menu button,.kurierchikof-rs-top-menu div,.kurierchikof-rs-top-menu span,.kurierchikof-rs-support p,.kurierchikof-rs-support h1,.kurierchikof-rs-support h2,.kurierchikof-rs-support h3,.kurierchikof-rs-support h4,.kurierchikof-rs-support h5,.kurierchikof-rs-support h6,.kurierchikof-rs-support a,.kurierchikof-rs-support button,.kurierchikof-rs-support div,.kurierchikof-rs-support span{font-family:'Open Sans Regular',sans-serif}
-.kurierchikof-rs-support{background-color:#f4f8f7;padding-bottom:261px}.kurierchikof-rs-support .custom-head{font-size:35px;color:#424242;line-height:.571;text-align:left;margin-bottom:33px;margin-top:49px}
-.kurierchikof-rs-support .custom-nav-title,.kurierchikof-rs-support .custom-nav-link{margin-bottom:0;font-size:13px;font-family:'Myriad Pro Regular',sans-serif;color:#929594;line-height:1.538;text-align:left;letter-spacing:.33px}
-.kurierchikof-rs-support .custom-nav-link,.kurierchikof-rs-support .custom-nav-link:hover{text-decoration:underline !important;background-color:transparent}
-.kurierchikof-rs-support .delimiter{border-bottom:1px solid #ebebeb;margin-bottom:5px}
-.kurierchikof-rs-support .custom-background-green{background-color:#54af3a !important}
-.kurierchikof-rs-support .custom-panel-head{font-size:14px;color:#fff !important;line-height:1.857;text-align:left;outline:0;width:100%;height:100%;display:block;padding:7px 15px}
-.kurierchikof-rs-support .custom-panel-head:hover,.kurierchikof-rs-support .custom-panel-head:focus{outline:0}
-.kurierchikof-rs-support .custom-content-wrapper{background-color:#fff;margin-left:15px}
-.kurierchikof-rs-support .custom-content-item{padding:17px 15px 19px 15px;width:100%;display:none}
-.kurierchikof-rs-support .custom-content>.active{display:block}.kurierchikof-rs-support .custom-item-head{font-size:18px;font-family:'Myriad Pro Regular',sans-serif;color:#424242;line-height:1.167;text-align:left;margin-top:0;margin-bottom:2px;letter-spacing:.33px}
-.kurierchikof-rs-support .custom-item-text{font-size:14px;color:#424242;line-height:1.65;text-align:left;margin-top:10px}
-.kurierchikof-rs-support .custom-item-subhead{font-size:16px;color:#424242;line-height:1.5;text-align:left;margin-bottom:-2px !important;margin-top:10px !important}
-.kurierchikof-rs-support .custom-numbered-list{padding-left:16px}.kurierchikof-rs-support .custom-list-item{font-size:14px;color:#424242;line-height:1.5}
-.kurierchikof-rs-support .custom-btn-content-item{font-family:'Open Sans Semibold',sans-serif;background-color:#54af3a !important;font-size:13px;color:#fff;font-weight:bold;line-height:1.538;text-align:center;padding:9px 20px 8px 20px;margin-top:17px;letter-spacing:.33px}
-.kurierchikof-rs-support .custom-btn-content-item:hover{color:#fff}.kurierchikof-rs-support .w-75p{width:76%}
-.kurierchikof-rs-support .panel-body{padding:0}.kurierchikof-rs-support .panel-group{margin-bottom:0}
-.kurierchikof-rs-support .panel-heading{border-radius:0 !important;padding:0 !important}
-.kurierchikof-rs-support .list-group{margin-bottom:0}.kurierchikof-rs-support .list-group-item,.kurierchikof-rs-support .list-group-item:hover,.kurierchikof-rs-support .list-group-item:focus,.kurierchikof-rs-support .list-group-item:visited,.kurierchikof-rs-support .list-group-item:active{background-color:#fff;border-color:#ddd !important;outline:none !important;padding:11px 15px;font-size:12px !important}
-.kurierchikof-rs-support .list-group-item.active{color:#424242;font-weight:600;background-color:#fff !important;outline:0}
-.kurierchikof-rs-support .list-group-item.active,.kurierchikof-rs-support .list-group-item.active:hover,.kurierchikof-rs-support .list-group-item.active:focus,.kurierchikof-rs-support .list-group-item.active:visited,.kurierchikof-rs-support .list-group-item.active:active{border-color:#ddd !important;outline:none !important}
-.kurierchikof-rs-support .list-group-item{border-right:none !important;border-left:none !important;border-radius:0 !important;font-size:13px;color:#424242 !important;text-align:left}
-.kurierchikof-rs-support .list-group-item:last-child{border-bottom:none !important}
-.kurierchikof-rs-support .panel-group .panel+.panel{margin-top:4px}.kurierchikof-rs-top-menu .no-word-wrap{white-space:nowrap}
-.kurierchikof-rs-top-menu .custom-nav{height:70px;box-shadow:0 2px 7.6px .4px rgba(0,0,0,0.09);background-color:#fff}
+.kurierchikof-rs-top-menu p,.kurierchikof-rs-top-menu h1,.kurierchikof-rs-top-menu h2,.kurierchikof-rs-top-menu h3,.kurierchikof-rs-top-menu h4,.kurierchikof-rs-top-menu h5,.kurierchikof-rs-top-menu h6,.kurierchikof-rs-top-menu a,.kurierchikof-rs-top-menu button,.kurierchikof-rs-top-menu div,.kurierchikof-rs-top-menu span,.kurierchikof-rs-support-tariffs p,.kurierchikof-rs-support-tariffs h1,.kurierchikof-rs-support-tariffs h2,.kurierchikof-rs-support-tariffs h3,.kurierchikof-rs-support-tariffs h4,.kurierchikof-rs-support-tariffs h5,.kurierchikof-rs-support-tariffs h6,.kurierchikof-rs-support-tariffs a,.kurierchikof-rs-support-tariffs button,.kurierchikof-rs-support-tariffs div,.kurierchikof-rs-support-tariffs span{font-family:'Open Sans Regular',sans-serif}
+.kurierchikof-rs-support-tariffs body{background-color:#f4f8f7}.kurierchikof-rs-support-tariffs a,.kurierchikof-rs-support-tariffs a:hover{text-decoration:none}
+.kurierchikof-rs-support-tariffs{padding-bottom:80px}.kurierchikof-rs-support-tariffs.m-t-n18{margin-top:-18px}
+.kurierchikof-rs-support-tariffs .custom-head{font-size:35px;color:#424242;line-height:.571;text-align:left;margin-bottom:28px;margin-top:49px;letter-spacing:-.02em}
+.kurierchikof-rs-support-tariffs .delimiter{border-bottom:1px solid #ebebeb}.kurierchikof-rs-support-tariffs .nav{margin-top:20px}
+.kurierchikof-rs-support-tariffs .custom-nav-link{margin-bottom:0;font-size:14px;font-family:'Myriad Pro Regular',sans-serif;color:#929594;line-height:1.538;text-align:left;margin-left:39px;letter-spacing:.33px;padding:0}
+.kurierchikof-rs-support-tariffs .custom-nav-link,.kurierchikof-rs-support-tariffs .custom-nav-link:hover{text-decoration:underline !important;background-color:transparent}
+.kurierchikof-rs-support-tariffs .custom-background-green{background-color:#54af3a !important}
+.kurierchikof-rs-support-tariffs .custom-panel-head{font-size:14px;color:#fff !important;line-height:1.857;text-align:left;outline:0}
+.kurierchikof-rs-support-tariffs .custom-panel-head:hover,.kurierchikof-rs-support-tariffs .custom-panel-head:focus{outline:0}
+.kurierchikof-rs-support-tariffs .custom-content-wrapper{background-color:#fff;margin-left:15px}
+.kurierchikof-rs-support-tariffs .custom-content-item{padding-left:15px;padding-top:17px;width:100%;display:none}
+.kurierchikof-rs-support-tariffs .custom-content>.active{display:block}.kurierchikof-rs-support-tariffs .custom-item-head{font-size:18px;font-family:'Myriad Pro Regular',sans-serif;color:#424242;line-height:1.167;text-align:left;margin-top:0;font-weight:600}
+.kurierchikof-rs-support-tariffs .custom-item-text{font-size:14px;color:#424242;line-height:1.5;text-align:left;margin-top:20px}
+.kurierchikof-rs-support-tariffs .custom-item-subhead{font-family:'Myriad Pro Regular',sans-serif;font-size:19px;color:#424242;line-height:1.5;text-align:left;margin-bottom:6px !important;margin-top:20px !important;letter-spacing:.07em;margin-left:-4px}
+.kurierchikof-rs-support-tariffs .custom-numbered-list{padding-left:16px}.kurierchikof-rs-support-tariffs .custom-list-item{font-size:14px;color:#424242;line-height:1.5;margin-bottom:3px}
+.kurierchikof-rs-support-tariffs .table-wrapper{display:none}.kurierchikof-rs-support-tariffs .table-wrapper.active{display:block}
+.kurierchikof-rs-support-tariffs table{border-collapse:collapse;border-color:#ddd}
+.kurierchikof-rs-support-tariffs table th,.kurierchikof-rs-support-tariffs table td{width:16.666%;padding-left:16px !important;border-right:1px solid #ddd;color:#333}
+.kurierchikof-rs-support-tariffs table th:nth-child(n+6),.kurierchikof-rs-support-tariffs table td:nth-child(n+6){border-right:0}
+.kurierchikof-rs-support-tariffs table thead th{background-color:#54af3a;color:#fff;font-size:14px;font-weight:bold;vertical-align:text-top;padding-top:6px;padding-bottom:25px;padding-left:10px !important}
+.kurierchikof-rs-support-tariffs table thead th>span{font-weight:normal}.kurierchikof-rs-support-tariffs table tbody tr:nth-child(odd){background-color:#fff}
+.kurierchikof-rs-support-tariffs table tbody tr:nth-child(even){background-color:#f5f3f3}
+.kurierchikof-rs-support-tariffs table tbody td{font-family:'Open Sans Regular',sans-serif;font-size:14px;font-weight:normal;color:#333;line-height:1.6;padding-top:8px;padding-bottom:5px;padding-left:10px !important}
+.kurierchikof-rs-support-tariffs .custom-btn-content-item{background-color:#54af3a !important;font-size:13px;color:#fff;font-weight:bold;line-height:1.538;text-align:center;padding:9px 20px 8px 20px;margin-top:17px}
+.kurierchikof-rs-support-tariffs .custom-btn-content-item:hover{color:#fff}.kurierchikof-rs-support-tariffs .custom-subhead-wrapper{margin-left:30px;margin-top:20px}
+.kurierchikof-rs-support-tariffs .custom-subhead-title{font-family:'Myriad Pro Regular',sans-serif;font-size:18px;color:#424242;text-align:left;margin-top:0;margin-bottom:0}
+.kurierchikof-rs-support-tariffs .custom-subhead-caption{font-size:14px;color:#424242;text-align:left;margin:4px 0 0 0}
+.kurierchikof-rs-support-tariffs .panel-body{padding:0}.kurierchikof-rs-support-tariffs .panel-group{margin-bottom:0}
+.kurierchikof-rs-support-tariffs .panel-heading{border-radius:0 !important}.kurierchikof-rs-support-tariffs .list-group{margin-bottom:0}
+.kurierchikof-rs-support-tariffs .list-group-item,.kurierchikof-rs-support-tariffs .list-group-item:hover,.kurierchikof-rs-support-tariffs .list-group-item:focus,.kurierchikof-rs-support-tariffs .list-group-item:visited,.kurierchikof-rs-support-tariffs .list-group-item:active{background-color:#fff;border-color:#ddd !important;outline:none !important}
+.kurierchikof-rs-support-tariffs .list-group-item.active{color:#424242;font-weight:600;background-color:#fff;outline:0}
+.kurierchikof-rs-support-tariffs .list-group-item.active,.kurierchikof-rs-support-tariffs .list-group-item.active:hover,.kurierchikof-rs-support-tariffs .list-group-item.active:focus,.kurierchikof-rs-support-tariffs .list-group-item.active:visited,.kurierchikof-rs-support-tariffs .list-group-item.active:active{background-color:#f5f5f5 !important;border-color:#ddd !important;outline:none !important}
+.kurierchikof-rs-support-tariffs .list-group-item{border-right:none !important;border-left:none !important;border-bottom:none !important;border-radius:0 !important;font-size:13px;color:#424242 !important;text-align:left}
+.kurierchikof-rs-support-tariffs .m-t-28{margin-top:28px}.kurierchikof-rs-support-tariffs .m-t-29{margin-top:29px}
+.kurierchikof-rs-support-tariffs .m-t-44{margin-top:44px}.kurierchikof-rs-support-tariffs .m-t-42{margin-top:42px}
+.kurierchikof-rs-support-tariffs .m-t-10{margin-top:10px}.kurierchikof-rs-support-tariffs .w-75p{width:75%}
+.kurierchikof-rs-support-tariffs .m-t-20{margin-top:20px}.kurierchikof-rs-support-tariffs .nav-pills>li>a{background-color:transparent}
+.kurierchikof-rs-support-tariffs .nav-pills>li.active>a,.kurierchikof-rs-support-tariffs .nav-pills>li.active>a:hover,.kurierchikof-rs-support-tariffs .nav-pills>li.active>a:focus{background-color:#54af3a;color:#fff}
+.kurierchikof-rs-support-tariffs .nav-pills>li>a{border:1px solid #54af3a;color:#424242;font-family:'Myriad Pro Regular',sans-serif;font-size:16px;letter-spacing:.05em}
+.kurierchikof-rs-support-tariffs .nav-pills>li+li{margin-left:0}.kurierchikof-rs-support-tariffs .nav-pills>li:first-child a{border-bottom-right-radius:0 !important;border-top-right-radius:0 !important;padding:10px 26px}
+.kurierchikof-rs-support-tariffs .nav-pills>li:last-child a{border-top-left-radius:0 !important;border-bottom-left-radius:0 !important;padding:10px 13px}
+.kurierchikof-rs-top-menu .no-word-wrap{white-space:nowrap}.kurierchikof-rs-top-menu .custom-nav{height:70px;box-shadow:0 2px 7.6px .4px rgba(0,0,0,0.09);background-color:#fff}
 .kurierchikof-rs-top-menu .custom-nav-item{color:#929594;text-align:left;height:100%;font-size:16px;color:#929594;line-height:1.25;border-bottom:3px solid transparent}
 .kurierchikof-rs-top-menu .custom-nav-item:last-child{margin-left:14px}.kurierchikof-rs-top-menu .custom-nav-link{height:100%;display:flex;align-items:center;padding-bottom:10px;font-weight:400}
 .kurierchikof-rs-top-menu .custom-btn-create-order{background-color:#fff200;color:#444;font-size:16px;letter-spacing:.053em;padding:6px 25px}
@@ -1400,13 +1414,12 @@ button.close{-webkit-appearance:none;padding:0;cursor:pointer;background:transpa
 .kurierchikof-rs-top-menu .custom-btn-img>img{display:block;width:100%;height:auto}
 .kurierchikof-rs-top-menu .custom-btn-head{font-size:16px;color:#424242;margin-bottom:0;margin-top:13px}
 .kurierchikof-rs-top-menu .custom-btn-caption{font-size:12px;color:#929594}.kurierchikof-rs-top-menu .custom-nav-btn-link{width:100%;height:100%;padding:0 !important}
-.custom-nav-btn-link:active,.custom-nav-btn-link:focus{background-color:#fff}.kurierchikof-rs-top-menu .custom-nav-btn-link:hover,.kurierchikof-rs-top-menu .custom-nav-btn-link:focus{color:#777 !important}
+.kurierchikof-rs-top-menu .custom-nav-btn-link:active,.kurierchikof-rs-top-menu .custom-nav-btn-link:focus{background-color:#fff}
+.kurierchikof-rs-top-menu .custom-nav-btn-link:hover,.kurierchikof-rs-top-menu .custom-nav-btn-link:focus{color:#777 !important}
 .kurierchikof-rs-top-menu .custom-dropdown{box-shadow:0 2px 7.6px .4px rgba(0,0,0,0.09);border:none !important;padding-left:15px;padding-right:15px;left:-39px;min-width:222px}
 .kurierchikof-rs-top-menu .custom-dropdown::before{content:'';position:absolute;top:0;left:0;width:100%;height:7px;box-shadow:0 7.6px 7.6px -3.9px rgba(0,0,0,0.09) inset}
 .kurierchikof-rs-top-menu .custom-dropdown .fa-li{left:0 !important}.kurierchikof-rs-top-menu .custom-dropdown-link{font-size:14px;color:#929594 !important;text-align:left;padding-left:0 !important;padding-right:0 !important;transition:color .3s;text-align:left;margin-bottom:4px}
-.kurierchikof-rs-top-menu .custom-dropdown-link .fas{margin-left:-4px}.kurierchikof-rs-support .m-t-28{margin-top:28px}
-.kurierchikof-rs-support .m-t-13{margin-top:13px}.kurierchikof-rs-support .m-t-20{margin-top:20px}
-.kurierchikof-rs-support.m-t-n18{margin-top:-18px}.kurierchikof-rs-top-menu .p-0{padding:0 !important}
+.kurierchikof-rs-top-menu .custom-dropdown-link .fas{margin-left:-4px}.kurierchikof-rs-top-menu .p-0{padding:0 !important}
 .kurierchikof-rs-top-menu .custom-dropdown-comment{font-size:13px;color:#424242;line-height:1.308;margin-bottom:0}
 .kurierchikof-rs-top-menu .custom-dropdown-comment:first-child{margin-top:11px}.kurierchikof-rs-top-menu .custom-dropdown-comment:last-child{margin-bottom:3px}
 .kurierchikof-rs-top-menu .custom-dropdown-bonuce{margin-left:28px}.kurierchikof-rs-top-menu .m-l-1p{margin-left:3%}
@@ -1416,11 +1429,18 @@ button.close{-webkit-appearance:none;padding:0;cursor:pointer;background:transpa
 .kurierchikof-rs-top-menu .navbar-brand{padding-right:0;padding-top:0;padding-bottom:0;height:100%}
 .kurierchikof-rs-top-menu .navbar-form{margin:0}.kurierchikof-rs-top-menu .dropdown-menu>li>a:hover,.kurierchikof-rs-top-menu .dropdown-menu>li>a:focus{background-color:transparent !important;color:#262626 !important}
 .kurierchikof-rs-top-menu .navbar-nav{margin:0}.kurierchikof-rs-top-menu .navbar-default .navbar-nav>.open>a,.kurierchikof-rs-top-menu .navbar-default .navbar-nav>.open>a:hover,.kurierchikof-rs-top-menu .navbar-default .navbar-nav>.open>a:focus{background-color:#fff}
-.kurierchikof-rs-top-menu .do-flex,.kurierchikof-rs-support .do-flex{display:flex !important}
-.kurierchikof-rs-top-menu .do-direction-column{flex-direction:column}.kurierchikof-rs-top-menu .do-no-wrap{flex-wrap:nowrap}
-.kurierchikof-rs-top-menu .do-justify-end{justify-content:flex-end}.kurierchikof-rs-support .do-justify-center,.kurierchikof-rs-top-menu .do-justify-center{justify-content:center}
-.kurierchikof-rs-top-menu .do-align-center,.kurierchikof-rs-support .do-align-center{align-items:center}
-.kurierchikof-rs-top-menu .do-align-start{align-items:flex-start}.kurierchikof-rs-top-menu .w-25p,.kurierchikof-rs-support .w-25p{width:23%}
+.kurierchikof-rs-top-menu .do-flex,.kurierchikof-rs-support-tariffs .do-flex{display:flex !important}
+.kurierchikof-rs-top-menu .do-direction-column,.kurierchikof-rs-support-tariffs .do-direction-column{flex-direction:column}
+.kurierchikof-rs-top-menu .do-no-wrap,.kurierchikof-rs-support-tariffs .do-no-wrap{flex-wrap:nowrap}
+.kurierchikof-rs-top-menu .do-justify-space-between,.kurierchikof-rs-support-tariffs .do-justify-space-between{justify-content:space-between}
+.kurierchikof-rs-top-menu .do-justify-end,.kurierchikof-rs-support-tariffs .do-justify-end{justify-content:flex-end}
+.kurierchikof-rs-top-menu .do-justify-center,.kurierchikof-rs-support-tariffs .do-justify-center{justify-content:center}
+.kurierchikof-rs-top-menu .do-align-center,.kurierchikof-rs-support-tariffs .do-align-center{align-items:center}
+.kurierchikof-rs-top-menu .do-align-end,.kurierchikof-rs-support-tariffs .do-align-end{align-items:flex-end}
+.kurierchikof-rs-top-menu .do-align-start,.kurierchikof-rs-support-tariffs .do-align-start{align-items:flex-start}
+.kurierchikof-rs-top-menu .do-text-align-right,.kurierchikof-rs-support-tariffs .do-text-align-right{text-align:right}
+.kurierchikof-rs-top-menu .m-l-15,.kurierchikof-rs-support-tariffs .m-l-15{margin-left:15px}
+.kurierchikof-rs-top-menu .w-25p,.kurierchikof-rs-support-tariffs .w-25p{width:25%}
 @media(min-width:768px){.lead{font-size:21px}.dl-horizontal dt{float:left;width:160px;overflow:hidden;clear:left;text-align:right;text-overflow:ellipsis;white-space:nowrap}
 .dl-horizontal dd{margin-left:180px}.container{width:750px}.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12{float:left}
 .col-sm-12{width:100%}.col-sm-11{width:91.66666667%}.col-sm-10{width:83.33333333%}
@@ -1479,6 +1499,7 @@ button.close{-webkit-appearance:none;padding:0;cursor:pointer;background:transpa
 .carousel-control .glyphicon-chevron-left,.carousel-control .icon-prev{margin-left:-10px}
 .carousel-control .glyphicon-chevron-right,.carousel-control .icon-next{margin-right:-10px}
 .carousel-caption{right:20%;left:20%;padding-bottom:30px}.carousel-indicators{bottom:20px}
+}@media(min-width:844px){.kurierchikof-rs-top-menu .custom-small-hidden{display:none !important}
 }@media(min-width:992px){.container{width:970px}.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{float:left}
 .col-md-12{width:100%}.col-md-11{width:91.66666667%}.col-md-10{width:83.33333333%}
 .col-md-9{width:75%}.col-md-8{width:66.66666667%}.col-md-7{width:58.33333333%}.col-md-6{width:50%}
@@ -1518,14 +1539,14 @@ button.close{-webkit-appearance:none;padding:0;cursor:pointer;background:transpa
 tr.visible-lg{display:table-row !important}th.visible-lg,td.visible-lg{display:table-cell !important}
 .visible-lg-block{display:block !important}.visible-lg-inline{display:inline !important}
 .visible-lg-inline-block{display:inline-block !important}.hidden-lg{display:none !important}
-}@media(max-width:1200px){.kurierchikof-rs-top-menu .container,.kurierchikof-rs-support .container{width:100%}
+}@media(max-width:1200px){.kurierchikof-rs-top-menu .container,.kurierchikof-rs-support-tariffs .container{width:100%}
 }@media screen and (max-width:992px){.carousel-indicators li{display:inline-block;width:14px !important;height:14px !important;margin:1px;text-indent:-999px;cursor:pointer;background-color:#000;background-color:rgba(0,0,0,0);border:1px solid #000;border-radius:14px}
 .carousel-indicators .active{width:12px;height:12px;margin:0;background-color:#000}
-}@media(max-width:992px){.kurierchikof-rs-support .custom-btn-content-item{margin-top:24px !important}
+}@media(max-width:992px){.kurierchikof-rs-support-tariffs .custom-btn-content-item{margin-top:24px !important}
 }@media(max-width:880px){.kurierchikof-rs-top-menu .custom-nav-item>a{padding-left:0}
 .kurierchikof-rs-top-menu .custom-nav-item:last-child{margin-left:0}.kurierchikof-rs-top-menu .custom-btn-cog{margin-left:10px;margin-right:10px}
 }@media(max-width:800px){.kurierchikof-rs-top-menu .custom-nav-link{font-size:14px}
-.custom-btn-create-order{font-size:14px !important}}@media screen and (max-width:767px){.table-responsive{width:100%;margin-bottom:15px;overflow-y:hidden;-ms-overflow-style:-ms-autohiding-scrollbar;border:1px solid #ddd}
+.kurierchikof-rs-top-menu .custom-btn-create-order{font-size:14px !important}}@media screen and (max-width:767px){.table-responsive{width:100%;margin-bottom:15px;overflow-y:hidden;-ms-overflow-style:-ms-autohiding-scrollbar;border:1px solid #ddd}
 .table-responsive>.table{margin-bottom:0}.table-responsive>.table>thead>tr>th,.table-responsive>.table>tbody>tr>th,.table-responsive>.table>tfoot>tr>th,.table-responsive>.table>thead>tr>td,.table-responsive>.table>tbody>tr>td,.table-responsive>.table>tfoot>tr>td{white-space:nowrap}
 .table-responsive>.table-bordered{border:0}.table-responsive>.table-bordered>thead>tr>th:first-child,.table-responsive>.table-bordered>tbody>tr>th:first-child,.table-responsive>.table-bordered>tfoot>tr>th:first-child,.table-responsive>.table-bordered>thead>tr>td:first-child,.table-responsive>.table-bordered>tbody>tr>td:first-child,.table-responsive>.table-bordered>tfoot>tr>td:first-child{border-left:0}
 .table-responsive>.table-bordered>thead>tr>th:last-child,.table-responsive>.table-bordered>tbody>tr>th:last-child,.table-responsive>.table-bordered>tfoot>tr>th:last-child,.table-responsive>.table-bordered>thead>tr>td:last-child,.table-responsive>.table-bordered>tbody>tr>td:last-child,.table-responsive>.table-bordered>tfoot>tr>td:last-child{border-right:0}
@@ -1547,8 +1568,9 @@ th.visible-xs,td.visible-xs{display:table-cell !important}.visible-xs-block{disp
 .visible-xs-inline{display:inline !important}.visible-xs-inline-block{display:inline-block !important}
 .hidden-xs{display:none !important}.kurierchikof-rs-top-menu .custom-dropdown::before{display:none}
 .kurierchikof-rs-top-menu .custom-nav-link{padding-left:15px !important;font-size:16px}
-.custom-dropdown{width:95% !important;box-shadow:none !important}.container>.navbar-collapse{margin-left:0;margin-right:0}
-.container>.navbar-collapse::before{content:'';position:absolute;top:100%;left:0;width:100%;height:7px;box-shadow:0 7.6px 7.6px -3.9px rgba(0,0,0,0.09) inset}
+.kurierchikof-rs-top-menu .custom-dropdown{width:95% !important;box-shadow:none !important}
+.kurierchikof-rs-top-menu .container>.navbar-collapse{margin-left:0;margin-right:0}
+.kurierchikof-rs-top-menu .container>.navbar-collapse::before{content:'';position:absolute;top:100%;left:0;width:100%;height:7px;box-shadow:0 7.6px 7.6px -3.9px rgba(0,0,0,0.09) inset}
 .kurierchikof-rs-top-menu .fa-ul{margin-left:0 !important}.kurierchikof-rs-top-menu .custom-thrid-line,.kurierchikof-rs-top-menu .custom-second-line,.kurierchikof-rs-top-menu .custom-first-line{flex-direction:column;align-items:flex-start;width:100%}
 .kurierchikof-rs-top-menu .custom-second-line,.kurierchikof-rs-top-menu .custom-first-line{margin-left:15px}
 .kurierchikof-rs-top-menu .custom-first-line{margin-top:25px !important}.kurierchikof-rs-top-menu .custom-second-line{align-items:flex-start}
@@ -1557,9 +1579,15 @@ th.visible-xs,td.visible-xs{display:table-cell !important}.visible-xs-block{disp
 .kurierchikof-rs-top-menu .custom-small-h100{height:100% !important}.kurierchikof-rs-top-menu .custom-align-btn{display:flex;align-items:center;justify-content:flex-end}
 .kurierchikof-rs-top-menu .h-100{height:auto}.kurierchikof-rs-top-menu .navbar-collapse{background-color:#fff}
 .kurierchikof-rs-top-menu .navbar-default .navbar-collapse,.kurierchikof-rs-top-menu .navbar-default .navbar-form{border-color:transparent !important}
-.kurierchikof-rs-support{padding-bottom:40px}.kurierchikof-rs-support .custom-content-wrapper{margin-left:0}
-.kurierchikof-rs-support .w-25p,.kurierchikof-rs-support .w-75p{width:100% !important}
-.do-small-direction-column{flex-direction:column}.kurierchikof-rs-support .custom-btn-content-item{margin-bottom:15px}
+.kurierchikof-rs-support-tariffs .custom-head{font-size:25px;line-height:1.2;margin-bottom:10px}
+.kurierchikof-rs-support-tariffs .nav{margin-top:10px;margin-bottom:10px}.kurierchikof-rs-support-tariffs .m-t-29{margin-top:15px}
+.kurierchikof-rs-support-tariffs .custom-content-wrapper{margin-left:0}.kurierchikof-rs-support-tariffs .custom-subhead-wrapper{margin-left:0;margin-top:10px}
+.kurierchikof-rs-support-tariffs .m-t-44,.kurierchikof-rs-support-tariffs .m-t-50{margin-top:20px}
+.kurierchikof-rs-support-tariffs .w-25p,.kurierchikof-rs-support-tariffs .w-75p{width:100% !important}
+.kurierchikof-rs-top-menu .do-small-direction-column,.kurierchikof-rs-support-tariffs .do-small-direction-column{flex-direction:column}
+.kurierchikof-rs-top-menu .do-small-align-start,.kurierchikof-rs-support-tariffs .do-small-align-start{align-items:flex-start !important}
+.kurierchikof-rs-support-tariffs .custom-wrapper-nav-link:first-child>.custom-nav-link{margin-left:0}
+.kurierchikof-rs-support-tariffs .custom-btn-content-item{margin-bottom:15px}}@media(max-width:468px){.kurierchikof-rs-support-tariffs .custom-form-head{font-size:25px;line-height:1.2}
 }@media(min-width:768px) and (max-width:991px){.visible-sm{display:block !important}
 table.visible-sm{display:table !important}tr.visible-sm{display:table-row !important}
 th.visible-sm,td.visible-sm{display:table-cell !important}.visible-sm-block{display:block !important}
