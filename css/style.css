@@ -1416,9 +1416,10 @@ button.close{-webkit-appearance:none;padding:0;cursor:pointer;background:transpa
 .kurierchikof-rs-top-menu .custom-btn-caption{font-size:12px;color:#929594}.kurierchikof-rs-top-menu .custom-nav-btn-link{width:100%;height:100%;padding:0 !important}
 .kurierchikof-rs-top-menu .custom-nav-btn-link:active,.kurierchikof-rs-top-menu .custom-nav-btn-link:focus{background-color:#fff}
 .kurierchikof-rs-top-menu .custom-nav-btn-link:hover,.kurierchikof-rs-top-menu .custom-nav-btn-link:focus{color:#777 !important}
-.kurierchikof-rs-top-menu .custom-dropdown{box-shadow:0 2px 7.6px .4px rgba(0,0,0,0.09);border:none !important;padding-left:15px;padding-right:15px;left:-39px;min-width:222px}
+.kurierchikof-rs-top-menu .custom-dropdown{box-shadow:0 2px 7.6px .4px rgba(0,0,0,0.09);border:none !important;padding-left:15px;padding-right:15px;left:-39px !important;min-width:222px}
 .kurierchikof-rs-top-menu .custom-dropdown::before{content:'';position:absolute;top:0;left:0;width:100%;height:7px;box-shadow:0 7.6px 7.6px -3.9px rgba(0,0,0,0.09) inset}
-.kurierchikof-rs-top-menu .custom-dropdown .fa-li{left:0 !important}.kurierchikof-rs-top-menu .custom-dropdown-link{font-size:14px;color:#929594 !important;text-align:left;padding-left:0 !important;padding-right:0 !important;transition:color .3s;text-align:left;margin-bottom:4px}
+.kurierchikof-rs-top-menu .fa-ul{margin-left:2.5em !important}.kurierchikof-rs-top-menu .custom-dropdown .fa-li{left:0 !important}
+.kurierchikof-rs-top-menu .custom-dropdown-link{font-size:14px;color:#929594 !important;text-align:left;padding-left:0 !important;padding-right:0 !important;transition:color .3s;text-align:left;margin-bottom:4px}
 .kurierchikof-rs-top-menu .custom-dropdown-link .fas{margin-left:-4px}.kurierchikof-rs-top-menu .p-0{padding:0 !important}
 .kurierchikof-rs-top-menu .custom-dropdown-comment{font-size:13px;color:#424242;line-height:1.308;margin-bottom:0}
 .kurierchikof-rs-top-menu .custom-dropdown-comment:first-child{margin-top:11px}.kurierchikof-rs-top-menu .custom-dropdown-comment:last-child{margin-bottom:3px}
