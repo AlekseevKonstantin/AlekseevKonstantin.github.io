@@ -4,24 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Тех поодержка тарифы</title>
+  <title>Россайт</title>
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style-common.css">
+  <link rel="stylesheet" href="css/style-menu.css">
+  <link rel="stylesheet" href="css/style-body.css">
+  <link rel="stylesheet" href="css/all.min.css">
 </head>
 <body>
 
-  <div class="kurierchikof-rs-top-menu">
-    <nav class="navbar navbar-default navbar-static-top custom-background-white custom-nav custom-font">
-      <div class="container h-100 custom-small-h100">
-        <div class="navbar-header h-100 pull-left custom-small-h100">
-          <a class="navbar-brand do-flex do-align-center" href="#"><img class="custom-logo-img" src="img/logo.png" alt="Logo"></a>
+  <div class="rs-main-menu">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header pull-left small-m-l-15">
+          <a class="navbar-brand do-block" href="#">
+            <h1 class="menu-head">Сайт на WordPress</h1>
+          </a>
         </div>
 
-        <div class="navbar-header pull-right custom-small-h100 custom-align-btn">
+        <div class="navbar-header pull-right small-m-r-15">
           <button type="button" 
                   class="navbar-toggle collapsed" 
                   data-toggle="collapse" 
-                  data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  data-target="#rs-navbar-collapse" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -29,412 +35,461 @@
           </button>
         </div>
 
-        <div class="collapse navbar-collapse custom-big-h-100 w-100p" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav h-100 do-flex do-align-center m-l-1p w-25p custom-first-line">
-            <li class="custom-nav-item" style="margin-left: -3px;"><a href="#" class="no-word-wrap custom-nav-link">Мои заказы <span class="sr-only">(current)</span></a></li>
-            <li class="custom-nav-item"><a href="#" class="custom-nav-link">Тарифы</a></li>
+        <div class="collapse navbar-collapse pull-right" id="rs-navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="custom-nav-item"><a href="#cms" class="no-word-wrap custom-nav-link active">Информация о CMS<span class="sr-only">(current)</span></a></li>
+            <li class="custom-nav-item"><a href="#site" class="no-word-wrap custom-nav-link">Сайт компании</a></li>
+            <li class="custom-nav-item"><a href="#ishop" class="no-word-wrap custom-nav-link">Интернет-магазин</a></li>
+            <li class="custom-nav-item"><a href="#lpage" class="no-word-wrap custom-nav-link">Landing Page</a></li>
           </ul>
-
-          <div class="do-flex do-no-wrap do-justify-end do-align-center h-100 custom-second-line">
-            <form class="navbar-form h-100 col-xs-4 do-flex do-align-center p-0 ">
-              <button type="submit" class="btn custom-btn-create-order do-flex do-align-center do-justify-center">
-                <span> Создать заказ </span>
-              </button>
-              <button type="button" class="btn custom-btn-cog p-0 ">
-                <span class="custom-fas-wrapper">
-                  <i class="fas fa-cog custom-cog-color"></i>
-                  <i class="fas fa-question-circle custom-question-icon" style="vertical-align: top;"></i>
-                </span>
-              </button>
-            </form>
-            
-            <ul class="nav navbar-nav navbar-right h-100 do-flex do-justify-end custom-thrid-line custom-m-t-10">
-              <li class="dropdown w-100p h-100">
-                <a href="#" class="dropdown-toggle do-flex do-align-center do-no-wrap custom-nav-btn-link"
-                            data-toggle="dropdown" 
-                            role="button" 
-                            aria-haspopup="true" 
-                            aria-expanded="false">
-                  
-                  <div class="custom-btn-img do-flex do-align-center do-justify-end">
-                    <img  src="img/user.png" alt="">
-                  </div>
-                  <div class="custom-btn-info">
-                    <h6 class="custom-btn-head">Бочкарева Наталья</h6>
-                    <p class="custom-btn-caption">заказчик(СПб)</p>
-                  </div>
-                </a>
-
-                <ul class="dropdown-menu custom-dropdown fa-ul">
-                  <li class="do-flex do-direction-column do-align-start">
-                    <p class="custom-dropdown-comment">
-                      <span class="custom-dropdown-balance">Баланс: 0 р.</span> 
-                      <span class="custom-dropdown-bonuce">Бонусы: 0</span></p>
-                    <p class="custom-dropdown-comment">Доставки: 0 за декабрь</p>              
-                    <p class="custom-dropdown-comment">Скидка: %</p>
-                  </li>
-                  <li role="separator" class="divider"></li>
-                  <li class="custom-dropdown-item fa-li">
-                    <a href="#" class="custom-dropdown-link">
-                      <i class="fas fa-user fa-fw"></i>&ensp;
-
-                      <span style="margin-left: -7px;">Профиль</span>
-                    </a>
-                  </li>
-                  <li class="custom-dropdown-item fa-li">
-                    <a href="#" class="custom-dropdown-link">
-                      <i class="fas fa-money-bill-alt fa-fw"></i>&ensp;
-                      <span style="margin-left: -2px;">Баланс</span>
-                    </a>
-                  </li>
-                  
-                  <li class="custom-dropdown-item fa-li">
-                    <a href="#" class="custom-dropdown-link">
-                      <i class="fas fa-map-marker-alt fa-fw"></i>&ensp;
-                      <span style="margin-left: -8px;">Пункты выдачи</span>
-                    </a>
-                  </li>
-                  <li class="custom-dropdown-item m-b-5 fa-li">
-                    <a href="#" class="custom-dropdown-link">
-                      <i class="fas fa-sign-out-alt fa-fw"></i>&ensp;
-                      <span style="margin-left: -5px;">Выход</span>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-
-        </div>
-        
+        </div>  
       </div>
     </nav>
   </div>
 
-  <div class="kurierchikof-rs-support-tariffs custom-font m-t-n18">
+  <div class="rs-block-text">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 banner do-flex do-align-center">
+          <div class="banner-header do-flex do-direction-column do-justify-start">
+            <h2 class="banner-head">Сайт на WordPress</h2>
+            <p class="banner-caption">Разработаем и подключим к CMS WordPress сайт 
+            или интернет-магазин от 3-х дней!</p>
+
+            <div class="btn-block">
+              <button type="button" class="btn custom-banner-btn custom-btn-yellow">Заказать сайт</button>
+            </div> 
+          </div>
+
+        </div>
+      </div>
+    </div>
+
     <div class="container">
+
+      <div class="row">
+        <div class="col-sm-12">
+          <a id="cms"></a>
+          <h2 class="block-text-head">Информация о системе управления</h2>
+        </div>
+      </div>
       
       <div class="row">
-        <div class="col-sm-12 do-flex do-align-center do-justify-space-between do-small-direction-column do-small-align-start">
-          <h2 class="custom-head">Тарифы в Санкт-Петербурге</h2>
-          <ul class="nav do-flex h-100">
-            <li role="presentation" class="custom-wrapper-nav-link"><a href="#" class="custom-nav-link">Санкт-Петербург</a></li>
-            <li role="presentation" class="custom-wrapper-nav-link"><a href="#" class="custom-nav-link">Москва</a></li>
-          </ul>
+        <div class="col-sm-12">
+          <p class="block-text">WordPress — система управления содержимым сайта с открытым исходным кодом. 
+            Написана на PHP, сервер базы данных — MySQL. WordPress выпущена 27 мая 2003 года. Сфера применения 
+            — от блогов до достаточно сложных новостных ресурсов и интернет-магазинов. WordPress является самой 
+            популярной системой управления сайтами. Forbes пишет: “Сегодня WordPress поддерживает каждый 6 
+            веб-сайт в Интернете, всего около 60 миллионов, причем каждый день появляются 100 000 новых”. 
+            Кстати, простота использования является еще одной важной особенностью, поскольку платформа ориентирована 
+            на начинающих пользователей.
+          </p>
         </div>
+      </div>
 
-        <div class="col-xs-12">
-          <div class="delimiter"></div>
-        </div>
-        
-        <div class="col-sm-12 do-flex do-align-center m-t-29 do-small-direction-column do-small-align-start">
-          <ul class="nav nav-pills do-flex do-no-wrap">
-            <li role="presentation" class="active" data-nav-pills-item="1"><a href="#">Наличный</a></li>
-            <li role="presentation" data-nav-pills-item="2"><a href="#">Безналичный</a></li>
-          </ul>
+      <div class="row">  
+        <div class="col-sm-8">
 
-          <div class="custom-subhead-wrapper">
-            <h5 class="custom-subhead-title">Курьерская доставка по Санкт-Петербургу для физических лиц.</h5>
-            <p class="custom-subhead-caption">Забор груза - БЕСПЛАТНО.</p>
-          </div>
-        </div>
+          <h4 class="bulleted-list-head do-text-left">Награды:</h4>
 
-        <div class="col-sm-12 m-t-42 table-wrapper active" data-item-num="1">
-          <div class="table-responsive">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th>Вес</th>
-                  <th>Доставка до 3км</th>
-                  <th>Стандартная доставка по городу</th>
-                  <th>Срочная доставка в городе <span>(в день заказа)</span></th>
-                  <th>Доставка в/из пригорода</th>
-                  <th>Срочная доставка в/из пригорода</th>
-                </tr>
-              </thead>
-              
-              <tbody>
-                <tr>
-                  <td>до 500 г</td>
-                  <td>119 руб</td>
-                  <td>275 руб</td>
-                  <td>335 руб </td>
-                  <td>455 руб</td>
-                  <td>515 руб</td>
-                </tr>
-
-                <tr>
-                  <td>до 1 кг</td>
-                  <td>155 руб</td>
-                  <td>311 руб</td>
-                  <td>371 руб</td>
-                  <td>491 руб</td>
-                  <td>551 руб</td>
-                </tr>
-
-                <tr>
-                  <td>до 3 кг</td>
-                  <td>179 руб</td>
-                  <td>335 руб</td>
-                  <td>395 руб</td>
-                  <td>515 руб</td>
-                  <td>575 руб</td>
-                </tr>
-
-                <tr>
-                  <td>до 5 кг</td>
-                  <td>203 руб</td>
-                  <td>359 руб</td>
-                  <td>419 руб</td>
-                  <td>539 руб</td>
-                  <td>599 руб</td>
-                </tr>
-
-                <tr>
-                  <td>до 10 кг</td>
-                  <td>215 руб</td>
-                  <td>371 руб</td>
-                  <td>431 руб</td>
-                  <td>575 руб</td>
-                  <td>635 руб</td>
-                </tr>
-
-                <tr>
-                  <td>до 15 кг</td>
-                  <td>347 руб</td>
-                  <td>395 руб</td>
-                  <td>563 руб</td>
-                  <td>599 руб</td>
-                  <td>767 руб</td>
-                </tr>
-
-                <tr>
-                  <td>до 20 кг</td>
-                  <td>432 руб</td>
-                  <td>408 руб</td>
-                  <td>648 руб</td>
-                  <td>612 руб</td>
-                  <td>852 руб</td>
-                </tr>
-
-                <tr>
-                  <td>до 25 кг</td>
-                  <td>480 руб</td>
-                  <td>456 руб</td>
-                  <td>696 руб</td>
-                  <td>660 руб</td>
-                  <td>900 руб</td>
-                </tr>
-
-                <tr>
-                  <td>до 50 кг</td>
-                  <td>503 руб</td>
-                  <td>479 руб</td>
-                  <td>719 руб</td>
-                  <td>683 руб</td>
-                  <td>923 руб</td>
-                </tr>
-
-                <tr>
-                  <td>до 100 кг</td>
-                  <td>539 руб</td>
-                  <td>515 руб</td>
-                  <td>755 руб</td>
-                  <td>839 руб</td>
-                  <td>1 079 руб</td>
-                </tr>
-
-                <tr>
-                  <td>до 500 кг</td>
-                  <td>590 руб</td>
-                  <td>519 руб</td>
-                  <td>990 руб</td>
-                  <td>1 190 руб</td>
-                  <td>1 390 руб</td>
-                </tr>
-
-                <tr>
-                  <td>до 1500 кг</td>
-                  <td>990 руб</td>
-                  <td>919 руб</td>
-                  <td>1 190 руб</td>
-                  <td>1 390 руб</td>
-                  <td>1 590 руб</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>  
-        </div>
-
-        <div class="col-sm-12 m-t-42 table-wrapper" data-item-num="2">
-          <div class="table-responsive">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th>Вес</th>
-                  <th>Доставка до 3км</th>
-                  <th>Стандартная доставка по городу</th>
-                  <th>Срочная доставка в городе <span>(в день заказа)</span></th>
-                  <th>Доставка в/из пригорода</th>
-                  <th>Срочная доставка в/из пригорода</th>
-                </tr>
-              </thead>
-              
-              <tbody>
-                <tr>
-                  <td>до 500 г</td>
-                  <td>119 руб</td>
-                  <td>275 руб</td>
-                  <td>335 руб </td>
-                  <td>455 руб</td>
-                  <td>515 руб</td>
-                </tr>
-
-                <tr>
-                  <td>до 1 кг</td>
-                  <td>155 руб</td>
-                  <td>311 руб</td>
-                  <td>371 руб</td>
-                  <td>491 руб</td>
-                  <td>551 руб</td>
-                </tr>
-
-                <tr>
-                  <td>до 3 кг</td>
-                  <td>179 руб</td>
-                  <td>335 руб</td>
-                  <td>395 руб</td>
-                  <td>515 руб</td>
-                  <td>575 руб</td>
-                </tr>
-
-                <tr>
-                  <td>до 5 кг</td>
-                  <td>203 руб</td>
-                  <td>359 руб</td>
-                  <td>419 руб</td>
-                  <td>539 руб</td>
-                  <td>599 руб</td>
-                </tr>
-
-                <tr>
-                  <td>до 10 кг</td>
-                  <td>215 руб</td>
-                  <td>371 руб</td>
-                  <td>431 руб</td>
-                  <td>575 руб</td>
-                  <td>635 руб</td>
-                </tr>
-
-                <tr>
-                  <td>до 15 кг</td>
-                  <td>347 руб</td>
-                  <td>395 руб</td>
-                  <td>563 руб</td>
-                  <td>599 руб</td>
-                  <td>767 руб</td>
-                </tr>
-
-                <tr>
-                  <td>до 20 кг</td>
-                  <td>432 руб</td>
-                  <td>408 руб</td>
-                  <td>648 руб</td>
-                  <td>612 руб</td>
-                  <td>852 руб</td>
-                </tr>
-
-                <tr>
-                  <td>до 25 кг</td>
-                  <td>480 руб</td>
-                  <td>456 руб</td>
-                  <td>696 руб</td>
-                  <td>660 руб</td>
-                  <td>900 руб</td>
-                </tr>
-
-                <tr>
-                  <td>до 50 кг</td>
-                  <td>503 руб</td>
-                  <td>479 руб</td>
-                  <td>719 руб</td>
-                  <td>683 руб</td>
-                  <td>923 руб</td>
-                </tr>
-
-                <tr>
-                  <td>до 100 кг</td>
-                  <td>539 руб</td>
-                  <td>515 руб</td>
-                  <td>755 руб</td>
-                  <td>839 руб</td>
-                  <td>1 079 руб</td>
-                </tr>
-
-                <tr>
-                  <td>до 500 кг</td>
-                  <td>590 руб</td>
-                  <td>519 руб</td>
-                  <td>990 руб</td>
-                  <td>1 190 руб</td>
-                  <td>1 390 руб</td>
-                </tr>
-
-                <tr>
-                  <td>до 1500 кг</td>
-                  <td>990 руб</td>
-                  <td>919 руб</td>
-                  <td>1 190 руб</td>
-                  <td>1 390 руб</td>
-                  <td>1 590 руб</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>  
-        </div>
-
-        <div class="col-sm-4">
-          <h5 class="custom-item-subhead"><i class="fas fa-info-circle" style="color: #929594;"></i>&ensp;Информация</h5>
-          <ol class="custom-numbered-list">
-            <li class="custom-list-item">Забор груза - бесплатно</li>
-            <li class="custom-list-item">Пригородом считается территория более 3 км от ближайшей станции метро (более 5 км в СПб)</li>
-            <li class="custom-list-item">Ожидание 15 минут бесплатно</li>
-          </ol>
-        </div>
-        <div class="col-sm-4">
-          <h5 class="custom-item-subhead"><i class="fas fa-star" style="color: #929594;"></i>&ensp;Дополнительные услуги</h5>
-          <ol class="custom-numbered-list">
-            <li class="custom-list-item">Вызов курьера по телефону: 50 руб.</li>
-            <li class="custom-list-item">Кассовое обслуживание: 1% (не менее 50 руб.)</li>
-            <li class="custom-list-item">Доставка не в день забора: 99 руб.</li>
-            <li class="custom-list-item">Интервал доставки менее 2 часов: + 89 руб.</li>
-            <li class="custom-list-item">Фото задание: 199 руб.</li>
-            <li class="custom-list-item">Аренда курьера: 359 руб в час.</li>
-          </ol>
-          
-        </div>
-        <div class="col-sm-4">
-          <h5 class="custom-item-subhead"><i class="fas fa-credit-card" style="color: #929594;"></i>&ensp;Надбавки</h5>
-          <ol class="custom-numbered-list">
-            <li class="custom-list-item">Доставка в пригород (более 10 км от ближайшей станции метро): + 300 руб.</li>
-            <li class="custom-list-item">Возврат груза по городу: + 300 руб.</li>
-            <li class="custom-list-item">Ложный вызов курьера: 250 руб.</li>
-            <li class="custom-list-item">Несвоевременный отказ от доставки: 100 руб.</li>
-            <li class="custom-list-item">Гарантийный сбор для товаров с объявленной ценностью: 1 %</li>
-            <li class="custom-list-item">Сбор за возврат оплаты курьером на реквизиты магазина: 1 %</li>
-            <li class="custom-list-item">Кассовое обслуживание 75 руб.</li>
-            <li class="custom-list-item">Ожидание свыше 15 минут: 70 руб./15 минут
+          <ul class="bulleted-list">
+            <li class="bulleted-list-item">Победитель InfoWorld <a href="#">«Лучшие награды за программное обеспечение</a> с открытым 
+                исходным кодом: сотрудничество», присужденная в 2008 году.
             </li>
-          </ol>
+            <li class="bulleted-list-item">Победитель <a href="#">Open Source CMS Awards</a> «Лучшая с открытым исходным кодом CMS», 
+                присужденная в 2009 году
+            </li>
+            <li class="bulleted-list-item">Победитель дипломной лиги <a href="#">«Зал славы CMS категории в 2010 Open Source»</a>, 
+                присужденный в 2010 году
+            </li>
+            <li class="bulleted-list-item">Победитель <a href="#">InfoWorld „Bossie</a> награду за лучший Open Source Software“, удостоенный в 
+                2011 году.
+            </li>
+            <li class="bulleted-list-item">Победитель CMS Critic's Award <a href="#">«Лучшая CMS для персональных веб-сайтов»</a>, 
+                присужденная в 2015 году.
+            </li>
+          </ul> 
+          <p class="block-text"> По состоянию на февраль 2017 года WordPress используется на <a href="#">
+             58,7% всех веб-сайтов</a>, чья система управления контентом известна.
+          </p>
+        </div>
 
+        <div class="col-sm-4">
+          <figure>
+            <div class="img-wrapper">
+              <a href="#" class="img-responsive-wrapper">
+                <img src="img/pic_con.png" alt="image" class="img-responsive">
+              </a>
+            </div>
+            <figcaption class="img-caption">Рис 1. Система управления сайтом WordPress</figcaption>
+          </figure>
         </div>
       </div>
 
     </div>
   </div>
+
+  <div class="rs-decription-block">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <a id="site"></a>
+          <h2 class="block-text-head">Сайт на WordPress</h2>
+        </div>
+      </div>
+
+      <div class="row do-flex do-wrap">
+        
+        <div class="col-xs-8 col-sm-8 col-md-9 p-r-0 vsmall-100">
+
+          <div class="bc-light-grey c-p-9">
+            <h4 class="block-body-head">Сайт за 85 000</h4>
+            <p class="block-text"> Создадим сайт по Вашим индивидуальным пожеланиям. Проанализируем Ваших конкурентов в интернете 
+              и создадим уникальный дизайн-макет главной и внутренних страниц сайта, которые согласуем с заказчиком.
+            </p>  
+
+            <div class="do-flex do-wrap checked-list">
+            
+              <div class="checked-list-item do-flex">
+                <div>
+                  <img src="img/checked.png" alt="checked" class="img-marker">
+                </div>
+                <p class="item-text"><span class="item-text-head">Разработка главной страницы</span><br/> 
+                    Главная страница будет выглядеть так, как Вы захотите.
+                </p>
+              </div>
+
+              <div class="checked-list-item do-flex">
+                <div>
+                  <img src="img/checked.png" alt="checked" class="img-marker">
+                </div>
+                <p class="item-text"><span class="item-text-head">Разработка внутренних страниц</span><br/> 
+                  Внутренние страницы будут выглядеть так, как Вы захотите.
+                </p>
+              </div>
+
+              <div class="checked-list-item do-flex">
+                <div>
+                  <img src="img/checked.png" alt="checked" class="img-marker">
+                </div>
+                <p class="item-text"><span class="item-text-head">Написание текстов, обработка изображений</span><br/> 
+                  Вам не нужно тратить время на обработку изображений и написание текстов.
+                </p>
+              </div>
+
+
+              <div class="checked-list-item do-flex">
+                <div>
+                  <img src="img/checked.png" alt="checked" class="img-marker">
+                </div>
+                <p class="item-text"><span class="item-text-head">Согласование стадий разработки сайта</span><br/> 
+                  Вы будете в курсе Вашего проекта на этапе создания.
+                </p>
+              </div>
+
+              <div class="checked-list-item do-flex">
+                <div>
+                  <img src="img/checked.png" alt="checked" class="img-marker">
+                </div>
+                <p class="item-text"><span class="item-text-head">Хорошо продвигаются</span><br/> 
+                  Сайты с индивидуальным дизайном лучше продвигаются.
+                </p>
+              </div>
+
+              <div class="checked-list-item do-flex">
+                <div>
+                  <img src="img/checked.png" alt="checked" class="img-marker">
+                </div>
+                <p class="item-text"><span class="item-text-head">Поэтапная оплата</span><br/> 
+                  Оплата за сайт происходит в три этапа.
+                </p>
+              </div>
+            
+            
+              <div class="checked-list-item do-flex">
+                <div>
+                  <img src="img/checked.png" alt="checked" class="img-marker">
+                </div>
+                <p class="item-text"><span class="item-text-head">Хостинг и домен в подарок</span><br/> 
+                  Мы оплатим за Вас домен за первый год и хостинг на 6 месяцев.
+                </p>
+              </div>
+
+            </div>
+
+            <p class="checked-list-caption">Над сайтом будут работать семь специалистов
+            </p>
+          </div>  
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-3 p-l-0 vsmall-100">
+          <div class="bc-light-grey h-100 c-p-3 do-flex do-direction-column do-align-center">
+            <h3 class="price-head">85 <span>000</span><img src="img/rubl.png" alt=""></h3>
+
+            <p class="price-compare">Сравнить цены</p>
+
+            <button type="button" class="btn custom-btn custom-btn-green">Заказать</button>
+            <button type="button" class="btn custom-btn custom-btn-default">Посмотреть работы</button>
   
- 
+            <div class="img-group">
+              <p class="img-group-caption">Сайт соответствует  стандартам </p>
+              <div class="img-line do-flex do-justify-center do-small-direction-column do-small-align-center">
+                <img src="img/w3c-icon.png" alt="w3c" class="img-responsive">
+                <img src="img/developers_logo-icon.png" alt="developers_logo" class="img-responsive">
+              </div>  
+            </div>
+
+
+          </div>    
+        </div>
+        
+      </div>
+
+    </div>
+  </div>
+
+  <div class="rs-decription-block m-t-93">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <a id="ishop"></a>
+          <h2 class="block-text-head">Интернет-магазины на WordPress</h2>
+        </div>
+      </div>
+
+      <div class="row do-flex do-wrap">
+        
+        <div class="col-xs-8 col-sm-8 col-md-9 p-r-0 vsmall-100">
+
+          <div class="bc-light-grey c-p-9">
+            <h4 class="block-body-head">Сайт за 85 000</h4>
+            <p class="block-text"> Создадим сайт по Вашим индивидуальным пожеланиям. Проанализируем Ваших конкурентов в интернете 
+              и создадим уникальный дизайн-макет главной и внутренних страниц сайта, которые согласуем с заказчиком.
+            </p>  
+
+            <div class="do-flex do-wrap checked-list">
+            
+              <div class="checked-list-item do-flex">
+                <div>
+                  <img src="img/checked.png" alt="checked" class="img-marker">
+                </div>
+                <p class="item-text"><span class="item-text-head">Разработка главной страницы</span><br/> 
+                    Главная страница будет выглядеть так, как Вы захотите.
+                </p>
+              </div>
+
+              <div class="checked-list-item do-flex">
+                <div>
+                  <img src="img/checked.png" alt="checked" class="img-marker">
+                </div>
+                <p class="item-text"><span class="item-text-head">Разработка внутренних страниц</span><br/> 
+                  Внутренние страницы будут выглядеть так, как Вы захотите.
+                </p>
+              </div>
+
+              <div class="checked-list-item do-flex">
+                <div>
+                  <img src="img/checked.png" alt="checked" class="img-marker">
+                </div>
+                <p class="item-text"><span class="item-text-head">Написание текстов, обработка изображений</span><br/> 
+                  Вам не нужно тратить время на обработку изображений и написание текстов.
+                </p>
+              </div>
+
+
+              <div class="checked-list-item do-flex">
+                <div>
+                  <img src="img/checked.png" alt="checked" class="img-marker">
+                </div>
+                <p class="item-text"><span class="item-text-head">Согласование стадий разработки сайта</span><br/> 
+                  Вы будете в курсе Вашего проекта на этапе создания.
+                </p>
+              </div>
+
+              <div class="checked-list-item do-flex">
+                <div>
+                  <img src="img/checked.png" alt="checked" class="img-marker">
+                </div>
+                <p class="item-text"><span class="item-text-head">Хорошо продвигаются</span><br/> 
+                  Сайты с индивидуальным дизайном лучше продвигаются.
+                </p>
+              </div>
+
+              <div class="checked-list-item do-flex">
+                <div>
+                  <img src="img/checked.png" alt="checked" class="img-marker">
+                </div>
+                <p class="item-text"><span class="item-text-head">Поэтапная оплата</span><br/> 
+                  Оплата за сайт происходит в три этапа.
+                </p>
+              </div>
+
+
+              <div class="checked-list-item do-flex">
+                <div>
+                  <img src="img/checked.png" alt="checked" class="img-marker">
+                </div>
+                <p class="item-text"><span class="item-text-head">Хостинг и домен в подарок</span><br/> 
+                  Мы оплатим за Вас домен за первый год и хостинг на 6 месяцев.
+                </p>
+              </div>
+
+            </div>
+
+            <p class="checked-list-caption">Над сайтом будут работать семь специалистов
+            </p>
+          </div>  
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-3 p-l-0 vsmall-100">
+          <div class="bc-light-grey h-100 c-p-3 do-flex do-direction-column do-align-center">
+            <h3 class="price-head">85 <span>000</span><img src="img/rubl.png" alt=""></h3>
+
+            <p class="price-compare">Сравнить цены</p>
+
+            <button type="button" class="btn custom-btn custom-btn-green">Заказать</button>
+            <button type="button" class="btn custom-btn custom-btn-default">Посмотреть работы</button>
+  
+            <div class="img-group">
+              <p class="img-group-caption">Сайт соответствует  стандартам </p>
+              <div class="img-line do-flex do-justify-center do-small-direction-column do-small-align-center">
+                <img src="img/w3c-icon.png" alt="w3c">
+                <img src="img/developers_logo-icon.png" alt="developers_logo">
+              </div>  
+            </div>
+
+
+          </div>    
+        </div>
+
+        
+      </div>
+
+    </div>
+  </div>
+
+  <div class="rs-decription-block m-t-70 m-b-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <a id="lpage"></a>
+            <h2 class="block-text-head">Landing Page на WordPress </h2>
+          </div>
+        </div>
+  
+        <div class="row do-flex do-wrap">
+          
+          <div class="col-xs-8 col-sm-8 col-md-9 p-r-0 vsmall-100">
+  
+            <div class="bc-light-grey c-p-9">
+              <h4 class="block-body-head">Сайт за 85 000</h4>
+              <p class="block-text"> Создадим сайт по Вашим индивидуальным пожеланиям. Проанализируем Ваших конкурентов в интернете 
+                и создадим уникальный дизайн-макет главной и внутренних страниц сайта, которые согласуем с заказчиком.
+              </p>  
+  
+              <div class="do-flex do-wrap checked-list">
+              
+                <div class="checked-list-item do-flex">
+                  <div>
+                    <img src="img/checked.png" alt="checked" class="img-marker">
+                  </div>
+                  <p class="item-text"><span class="item-text-head">Разработка главной страницы</span><br/> 
+                      Главная страница будет выглядеть так, как Вы захотите.
+                  </p>
+                </div>
+  
+                <div class="checked-list-item do-flex">
+                  <div>
+                    <img src="img/checked.png" alt="checked" class="img-marker">
+                  </div>
+                  <p class="item-text"><span class="item-text-head">Разработка внутренних страниц</span><br/> 
+                    Внутренние страницы будут выглядеть так, как Вы захотите.
+                  </p>
+                </div>
+  
+                <div class="checked-list-item do-flex">
+                  <div>
+                    <img src="img/checked.png" alt="checked" class="img-marker">
+                  </div>
+                  <p class="item-text"><span class="item-text-head">Написание текстов, обработка изображений</span><br/> 
+                    Вам не нужно тратить время на обработку изображений и написание текстов.
+                  </p>
+                </div>
+  
+  
+                <div class="checked-list-item do-flex">
+                  <div>
+                    <img src="img/checked.png" alt="checked" class="img-marker">
+                  </div>
+                  <p class="item-text"><span class="item-text-head">Согласование стадий разработки сайта</span><br/> 
+                    Вы будете в курсе Вашего проекта на этапе создания.
+                  </p>
+                </div>
+  
+                <div class="checked-list-item do-flex">
+                  <div>
+                    <img src="img/checked.png" alt="checked" class="img-marker">
+                  </div>
+                  <p class="item-text"><span class="item-text-head">Хорошо продвигаются</span><br/> 
+                    Сайты с индивидуальным дизайном лучше продвигаются.
+                  </p>
+                </div>
+  
+                <div class="checked-list-item do-flex">
+                  <div>
+                    <img src="img/checked.png" alt="checked" class="img-marker">
+                  </div>
+                  <p class="item-text"><span class="item-text-head">Поэтапная оплата</span><br/> 
+                    Оплата за сайт происходит в три этапа.
+                  </p>
+                </div>
+  
+  
+                <div class="checked-list-item do-flex">
+                  <div>
+                    <img src="img/checked.png" alt="checked" class="img-marker">
+                  </div>
+                  <p class="item-text"><span class="item-text-head">Хостинг и домен в подарок</span><br/> 
+                    Мы оплатим за Вас домен за первый год и хостинг на 6 месяцев.
+                  </p>
+                </div>
+  
+              </div>
+  
+              <p class="checked-list-caption">Над сайтом будут работать семь специалистов
+              </p>
+            </div>  
+          </div>
+  
+          <div class="col-xs-4 col-sm-4 col-md-3 p-l-0 vsmall-100">
+            <div class="bc-light-grey h-100 c-p-3 do-flex do-direction-column do-align-center">
+              <h3 class="price-head">85 <span>000</span><img src="img/rubl.png" alt=""></h3>
+  
+              <p class="price-compare">Сравнить цены</p>
+  
+              <button type="button" class="btn custom-btn custom-btn-green">Заказать</button>
+              <button type="button" class="btn custom-btn custom-btn-default">Посмотреть работы</button>
+    
+              <div class="img-group">
+                <p class="img-group-caption">Сайт соответствует  стандартам </p>
+                <div class="img-line do-flex do-justify-center do-small-direction-column do-small-align-center">
+                  <img src="img/w3c-icon.png" alt="w3c">
+                  <img src="img/developers_logo-icon.png" alt="developers_logo">
+                </div>  
+              </div>
+  
+  
+            </div>    
+          </div>
+  
+          
+        </div>
+  
+      </div>
+  </div>
+  
   <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Open Sans Light';
+  src: url('../fonts/OpenSans-Light.eot');
+  src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSans-Light.woff') format('woff'),
+  url('../fonts/OpenSans-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans Regular';
+  src: url('../fonts/OpenSans-Regular.eot');
+  src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSans-Regular.woff') format('woff'),
+  url('../fonts/OpenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.do-block{
+  display: block;
+}
+
+.do-flex{
+  display: flex; 
+}
+
+.do-wrap{
+  flex-wrap: wrap;
+}
+
+.do-direction-column{
+  flex-direction: column;
+}
+
+.do-align-center{
+  align-items: center;
+}
+
+.do-justify-space-between{
+  justify-content: space-between;
+}
+
+.do-justify-center{
+  justify-content: center;
+}
+
+.do-justify-start{
+  justify-content: flex-start;
+}
+
+.do-text-left{
+  text-align: left;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .do-small-direction-column{
+    flex-direction: column;
+  }
+
+  .do-small-align-center{
+    align-items: center;
+  }
+}
