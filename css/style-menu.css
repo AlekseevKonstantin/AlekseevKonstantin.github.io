@@ -28,6 +28,10 @@ p,h1,h2,h3,h4,h4,h5,h6{
   margin-bottom: 20px;
 }
 
+.rs-main-menu .navbar-brand{
+  padding-top: 22px;
+}
+
 .rs-main-menu .custom-nav-link{
   font-family: "Open Sans Regular", sans-serif;
   color: #000000;
