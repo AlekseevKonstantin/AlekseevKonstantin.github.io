@@ -1,0 +1,250 @@
+@font-face {
+  font-family: 'Open Sans Light';
+  src: url('../fonts/OpenSans-Light.eot');
+  src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSans-Light.woff') format('woff'),
+  url('../fonts/OpenSans-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Open Sans Semibold';
+  src: url('../fonts/OpenSans-SemiBold.eot');
+  src: url('../fonts/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSans-SemiBold.woff') format('woff'),
+  url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: url('../fonts/OpenSans-Bold.eot');
+  src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSans-Bold.woff') format('woff'),
+  url('../fonts/OpenSans-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans ExtraBold';
+  src: url('../fonts/OpenSans-ExtraBold.eot');
+  src: url('../fonts/OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSans-ExtraBold.woff') format('woff'),
+  url('../fonts/OpenSans-ExtraBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed Light';
+  src: url('../fonts/OpenSansCondensed-Light.eot');
+  src: url('../fonts/OpenSansCondensed-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSansCondensed-Light.woff') format('woff'),
+  url('../fonts/OpenSansCondensed-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed Bold';
+  src: url('../fonts/OpenSansCondensed-Bold.eot');
+  src: url('../fonts/OpenSansCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSansCondensed-Bold.woff') format('woff'),
+  url('../fonts/OpenSansCondensed-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body { 
+  overflow-x: hidden; 
+}
+
+p, a, h1, h2, h3, h4, h5, h6, body{
+  padding: 0;
+  margin: 0;
+}
+
+a, a.hover{
+  text-decoration: none;
+}
+
+button:active,
+button:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+
+input{
+  border: none;
+  outline: none;
+  height: 40px;
+  border-radius: 2px;
+  background-color: #31363f;
+  color: #dcdbe3;
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 14px;
+  padding-left: 17px;
+  transition: color .5s, background-color .5s;
+}
+
+textarea.empty,
+input.empty{
+  background-color: #ffffff;
+  color: #272b31;
+}
+
+.form-empty-caption{
+  color: #f23c2d;
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.form-empty-caption.active{
+  opacity: 1;
+}
+
+input:hover {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  -ms-overflow-style: none
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+img{
+  display: block;
+}
+
+.responsive-img{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.btn{
+  border-radius: 29px;
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  white-space: nowrap;
+}
+
+@media (max-width: 992px) {
+  .btn{
+    font-size: 14px;
+  }
+}
+
+.slider-controls-icon{
+  width: 11px;
+  height: 17px;
+}
+
+.do-flex{
+  display: flex;
+}
+
+@media (max-width: 992px) {
+  .do-flex-small{
+    display: flex;
+  }
+
+  .do-justify-end-small{
+    justify-content: flex-end;
+  }
+
+  .do-align-center-small{
+    align-items: center;
+  }
+}
+
+.do-direction-column{
+  flex-direction: column;
+}
+
+.do-justify-center{
+  justify-content: center;
+}
+
+.do-align-center{
+  align-items: center;
+}
+
+.slider-controls{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+  width: 40px;
+  height: 40px;
+}
+
+.inner-addon {
+  position: relative;
+  overflow: hidden;
+}
+
+.inner-addon .input-icon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+  right: 4px;
+  top: 8px;
+}
+
+/* add padding  */
+
+.left-addon > input {
+  padding-left: 45px;
+  padding-right: 30px;
+}
+
+.left-addon > select {
+  padding-left: 17px;
+}
+
+
+.m-t-30{
+  margin-top: 12px;
+}
+
+
+

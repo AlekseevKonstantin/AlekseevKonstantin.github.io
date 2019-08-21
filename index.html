@@ -1,495 +1,484 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Россайт</title>
+  <meta name="author" content="AlexeevKV">
+  <title>Резюме</title>
 
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/style-common.css">
-  <link rel="stylesheet" href="css/style-menu.css">
-  <link rel="stylesheet" href="css/style-body.css">
-  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC%7COpen+Sans+Condensed:300" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-  <div class="rs-main-menu">
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header pull-left small-m-l-15">
-          <a class="navbar-brand do-block" href="#">
-            <h1 class="menu-head">Сайт на WordPress</h1>
-          </a>
+  <div class="wrapper">
+
+    <!-- <div class="over-layer"></div> -->
+    <header class="header">
+      <h1 class="header-head">Резюме</h1>
+      <p class="header-title">frontend-разработчика</p>
+    </header>
+    <div class="row">
+      <aside class="aside">
+        <div class="person-image">
         </div>
+        <h2 class="person-name">Алексеев Константин<br>Владимирович</h2>
 
-        <div class="navbar-header pull-right small-m-r-15">
-          <button type="button" 
-                  class="navbar-toggle collapsed" 
-                  data-toggle="collapse" 
-                  data-target="#rs-navbar-collapse" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-
-        <div class="collapse navbar-collapse pull-right" id="rs-navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="custom-nav-item"><a href="#cms" class="no-word-wrap custom-nav-link active">Информация о CMS<span class="sr-only">(current)</span></a></li>
-            <li class="custom-nav-item"><a href="#site" class="no-word-wrap custom-nav-link">Сайт компании</a></li>
-            <li class="custom-nav-item"><a href="#ishop" class="no-word-wrap custom-nav-link">Интернет-магазин</a></li>
-            <li class="custom-nav-item"><a href="#lpage" class="no-word-wrap custom-nav-link">Landing Page</a></li>
-          </ul>
-        </div>  
-      </div>
-    </nav>
-  </div>
-
-  <div class="rs-block-text">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 banner do-flex do-align-center">
-          <div class="banner-header do-flex do-direction-column do-justify-start">
-            <h2 class="banner-head">Сайт на WordPress</h2>
-            <p class="banner-caption">Разработаем и подключим к CMS WordPress сайт 
-            или интернет-магазин от 3-х дней!</p>
-
-            <div class="btn-block">
-              <button type="button" class="btn custom-banner-btn custom-btn-yellow">Заказать сайт</button>
-            </div> 
+        <article class="section-block">
+          <div class="section-block-header">
+            <div class="section-block-header__label">
+              <span class="section-block-header__label-icon">
+                <i class="far fa-envelope"></i>
+              </span>
+            </div>
+            <h2 class="section-block-header__head">Контакты</h2>
           </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-
-      <div class="row">
-        <div class="col-sm-12">
-          <a id="cms"></a>
-          <h2 class="block-text-head">Информация о системе управления</h2>
-        </div>
-      </div>
-      
-      <div class="row">
-        <div class="col-sm-12">
-          <p class="block-text">WordPress — система управления содержимым сайта с открытым исходным кодом. 
-            Написана на PHP, сервер базы данных — MySQL. WordPress выпущена 27 мая 2003 года. Сфера применения 
-            — от блогов до достаточно сложных новостных ресурсов и интернет-магазинов. WordPress является самой 
-            популярной системой управления сайтами. Forbes пишет: “Сегодня WordPress поддерживает каждый 6 
-            веб-сайт в Интернете, всего около 60 миллионов, причем каждый день появляются 100 000 новых”. 
-            Кстати, простота использования является еще одной важной особенностью, поскольку платформа ориентирована 
-            на начинающих пользователей.
-          </p>
-        </div>
-      </div>
-
-      <div class="row">  
-        <div class="col-sm-8">
-
-          <h4 class="bulleted-list-head do-text-left">Награды:</h4>
-
-          <ul class="bulleted-list">
-            <li class="bulleted-list-item">Победитель InfoWorld <a href="#">«Лучшие награды за программное обеспечение</a> с открытым 
-                исходным кодом: сотрудничество», присужденная в 2008 году.
-            </li>
-            <li class="bulleted-list-item">Победитель <a href="#">Open Source CMS Awards</a> «Лучшая с открытым исходным кодом CMS», 
-                присужденная в 2009 году
-            </li>
-            <li class="bulleted-list-item">Победитель дипломной лиги <a href="#">«Зал славы CMS категории в 2010 Open Source»</a>, 
-                присужденный в 2010 году
-            </li>
-            <li class="bulleted-list-item">Победитель <a href="#">InfoWorld „Bossie</a> награду за лучший Open Source Software“, удостоенный в 
-                2011 году.
-            </li>
-            <li class="bulleted-list-item">Победитель CMS Critic's Award <a href="#">«Лучшая CMS для персональных веб-сайтов»</a>, 
-                присужденная в 2015 году.
-            </li>
-          </ul> 
-          <p class="block-text"> По состоянию на февраль 2017 года WordPress используется на <a href="#">
-             58,7% всех веб-сайтов</a>, чья система управления контентом известна.
-          </p>
-        </div>
-
-        <div class="col-sm-4">
-          <figure>
-            <div class="img-wrapper">
-              <a href="#" class="img-responsive-wrapper">
-                <img src="img/pic_con.png" alt="image" class="img-responsive">
-              </a>
+          <div class="section-block-body m-l-15">
+            <div class="section-block-row">
+              <span class="section-block-header__label-icon">
+                <i class="fas fa-map-marker-alt fa-fw"></i>
+              </span>
+              <p class="section-block-header__label-caption">город Екатеринбург Свердловская область</p>
             </div>
-            <figcaption class="img-caption">Рис 1. Система управления сайтом WordPress</figcaption>
-          </figure>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="rs-decription-block">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <a id="site"></a>
-          <h2 class="block-text-head">Сайт на WordPress</h2>
-        </div>
-      </div>
-
-      <div class="row do-flex do-wrap">
-        
-        <div class="col-xs-8 col-sm-8 col-md-9 p-r-0 vsmall-100">
-
-          <div class="bc-light-grey c-p-9">
-            <h4 class="block-body-head">Сайт за 85 000</h4>
-            <p class="block-text"> Создадим сайт по Вашим индивидуальным пожеланиям. Проанализируем Ваших конкурентов в интернете 
-              и создадим уникальный дизайн-макет главной и внутренних страниц сайта, которые согласуем с заказчиком.
-            </p>  
-
-            <div class="do-flex do-wrap checked-list">
-            
-              <div class="checked-list-item do-flex">
-                <div>
-                  <img src="img/checked.png" alt="checked" class="img-marker">
-                </div>
-                <p class="item-text"><span class="item-text-head">Разработка главной страницы</span><br/> 
-                    Главная страница будет выглядеть так, как Вы захотите.
-                </p>
-              </div>
-
-              <div class="checked-list-item do-flex">
-                <div>
-                  <img src="img/checked.png" alt="checked" class="img-marker">
-                </div>
-                <p class="item-text"><span class="item-text-head">Разработка внутренних страниц</span><br/> 
-                  Внутренние страницы будут выглядеть так, как Вы захотите.
-                </p>
-              </div>
-
-              <div class="checked-list-item do-flex">
-                <div>
-                  <img src="img/checked.png" alt="checked" class="img-marker">
-                </div>
-                <p class="item-text"><span class="item-text-head">Написание текстов, обработка изображений</span><br/> 
-                  Вам не нужно тратить время на обработку изображений и написание текстов.
-                </p>
-              </div>
-
-
-              <div class="checked-list-item do-flex">
-                <div>
-                  <img src="img/checked.png" alt="checked" class="img-marker">
-                </div>
-                <p class="item-text"><span class="item-text-head">Согласование стадий разработки сайта</span><br/> 
-                  Вы будете в курсе Вашего проекта на этапе создания.
-                </p>
-              </div>
-
-              <div class="checked-list-item do-flex">
-                <div>
-                  <img src="img/checked.png" alt="checked" class="img-marker">
-                </div>
-                <p class="item-text"><span class="item-text-head">Хорошо продвигаются</span><br/> 
-                  Сайты с индивидуальным дизайном лучше продвигаются.
-                </p>
-              </div>
-
-              <div class="checked-list-item do-flex">
-                <div>
-                  <img src="img/checked.png" alt="checked" class="img-marker">
-                </div>
-                <p class="item-text"><span class="item-text-head">Поэтапная оплата</span><br/> 
-                  Оплата за сайт происходит в три этапа.
-                </p>
-              </div>
-            
-            
-              <div class="checked-list-item do-flex">
-                <div>
-                  <img src="img/checked.png" alt="checked" class="img-marker">
-                </div>
-                <p class="item-text"><span class="item-text-head">Хостинг и домен в подарок</span><br/> 
-                  Мы оплатим за Вас домен за первый год и хостинг на 6 месяцев.
-                </p>
-              </div>
-
+            <div class="section-block-row">
+              <span class="section-block-header__label-icon">
+                <i class="fas fa-mobile-alt fa-fw"></i>
+              </span>
+              <p class="section-block-header__label-caption">+7 (950) 958 92 11</p>
             </div>
-
-            <p class="checked-list-caption">Над сайтом будут работать семь специалистов
+            <div class="section-block-row">
+              <span class="section-block-header__label-icon">
+                <i class="far fa-envelope fa-fw"></i>
+              </span>
+              <p class="section-block-header__label-caption">myworkmailbox@list.ru</p>
+            </div>
+          </div>
+        </article>
+      </aside>
+      <main class="main p-b-70">
+        <article class="section-block">
+          <div class="section-block-header">
+            <div class="section-block-header__label">
+              <span class="section-block-header__label-icon">
+                <i class="fas fa-user"></i>
+              </span>
+            </div>
+            <h2 class="section-block-header__head">Коротко о себе</h2>
+          </div>
+          <div class="section-block-body">
+            <p class="section-block__text about-me-section">Меня зовут Алексеев Константин Владимирович. Я закончил
+              Уральский
+              государственный университет им Горького математико-механический факультет.
+              После окончания вуза занимался разработкой и поддержкой desktop ПО, преподавал в колледже и школе.
+              Уже более года занимаюсь Frontend – разработкой. Владею навыками кроссбраузерной, валидной,
+              адаптивной верстки. Имею уверенные знания в HTML, CSS, JavaScript (JQuery, Ajax, Vue, Vuex, React, Redux).
+              Умею разбираться в технической документации, в том числе и на английском языке и читать чужой код.
+              Имею опыт работы с CSS-фреймворком Twitter Bootstrap. Активно применяю препроцессор Less и сборщик
+              проектов Gulp.
             </p>
-          </div>  
-        </div>
+          </div>
+        </article>
 
-        <div class="col-xs-4 col-sm-4 col-md-3 p-l-0 vsmall-100">
-          <div class="bc-light-grey h-100 c-p-3 do-flex do-direction-column do-align-center">
-            <h3 class="price-head">85 <span>000</span><img src="img/rubl.png" alt=""></h3>
+        <article class="section-block">
+          <div class="section-block-header">
+            <div class="section-block-header__label">
+              <span class="section-block-header__label-icon">
+                <i class="fas fa-university"></i>
+              </span>
+            </div>
+            <h2 class="section-block-header__head">Образование</h2>
+          </div>
+          <div class="section-block-body">
+            <div class="stylized-list">
 
-            <p class="price-compare">Сравнить цены</p>
+              <div class="stylized-list-item">
+                <p class="stylized-list__main-marker">2001-2007</p>
+                <div class="stylized-list-body">
+                  <h5 class="stylized-list__head">Уральский государственный университет им. А.М. Горького</h5>
+                  <ul>
+                    <li>факультет: математико - механический</li>
+                    <li>направление / специальность: Математика. Компьютерные науки</li>
+                    <li>специализация: математические методы в экономике</li>
+                  </ul>
+                </div>
+              </div>
 
-            <button type="button" class="btn custom-btn custom-btn-green">Заказать</button>
-            <button type="button" class="btn custom-btn custom-btn-default">Посмотреть работы</button>
-  
-            <div class="img-group">
-              <p class="img-group-caption">Сайт соответствует  стандартам </p>
-              <div class="img-line do-flex do-justify-center do-small-direction-column do-small-align-center">
-                <img src="img/w3c-icon.png" alt="w3c" class="img-responsive">
-                <img src="img/developers_logo-icon.png" alt="developers_logo" class="img-responsive">
-              </div>  
+            </div>
+          </div>
+        </article>
+
+        <article class="section-block">
+          <div class="section-block-header">
+            <div class="section-block-header__label">
+              <span class="section-block-header__label-icon">
+                <i class="fas fa-briefcase"></i>
+              </span>
+            </div>
+            <h2 class="section-block-header__head">Опыт работы</h2>
+          </div>
+          <div class="section-block-body">
+            <div class="stylized-list">
+
+              <div class="stylized-list-item">
+                <p class="stylized-list__main-marker">31.08.07 – 30.06.11</p>
+                <div class="stylized-list-body">
+                  <h5 class="stylized-list__head">Уральский оптико-механический завод им. Яламова (г. Екатеринбург)</h5>
+                  <ul>
+                    <li>должность: инженер службы поддержки</li>
+                    <li>обязанности:
+                      <ul>
+                        <li>консультирование и обучение пользователей</li>
+                        <li>тестирование и отладка программ</li>
+                        <li>написание ТЗ и их реализация</li>
+                        <li>создание программ по ТЗ (java, Delphi, C/C++, Oracle)
+                          (TeamCenterEngineering, Автопроект)
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="stylized-list-item">
+                <p class="stylized-list__main-marker">21.05.13 – 31.12.13</p>
+                <div class="stylized-list-body">
+                  <h5 class="stylized-list__head">ООО «Сибинфософт» (г. Североуральск)</h5>
+                  <ul>
+                    <li>должность: специалист службы технической поддержки</li>
+                    <li>обязанности:
+                      <ul>
+                        <li>исправление и доработка существующего ПО</li>
+                        <li>создание программ по ТЗ(Delphi, Oracle, pl/sql)</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="stylized-list-item" style="margin-top: 5px;">
+                <p class="stylized-list__main-marker">29.08.16 – 27.08.18</p>
+                <div class="stylized-list-body">
+                  <h5 class="stylized-list__head">МАОУ СОШ№11 города Североуральска</h5>
+                  <ul>
+                    <li>должность: учитель математики</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="stylized-list-item" style="margin-top: 5px;">
+                <p class="stylized-list__main-marker">27.11.17</p>
+                <div class="stylized-list-body">
+                  <h5 class="stylized-list__head do-flex"><span>Фрилансер (сотрудничал с</span>
+                    <a href="https://softmajor.ru/" target="_blank" class="img-wrapper label-img-wrapper">
+                      <img src="img/softmajor.png" alt="" style="margin-left: 10px; width: 150px;" />
+                    </a>
+                    <span style="margin-left: 2px; margin-right: 7px;">,</span>
+                    <a href="https://rosait.ru/" target="_blank" class="img-wrapper label-img-wrapper" style="padding-top: 8px;">
+                      <img src="img/rossite.png" alt="" />
+                    </a>
+                    <span style="margin-left: 5px;">)</span>
+                  </h5>
+                  <ul>
+                    <li>должность: верстальщик, frontend-разработчик</li>
+                    <li>обязанности:
+                      <ul>
+                        <li>верстка по готовым макетам</li>
+                        <li>создание анимаций и эффектов</li>
+                        <!-- <li>создание SPA</li> -->
+                        <li>доработка сайтов (создание адптивных версий сайтов)</li>
+                      </ul>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </article>
+
+        <article class="section-block">
+          <div class="section-block-header">
+            <div class="section-block-header__label">
+              <span class="section-block-header__label-icon">
+                <i class="fas fa-cogs"></i>
+              </span>
+            </div>
+            <h2 class="section-block-header__head">Знания и Умения</h2>
+          </div>
+          <div class="section-block-body">
+
+            <div class="skills">
+              <div class="skills-row">
+                <div class="skills-item">
+                  <img src="img/html.png" alt="">
+                  html
+                </div>
+
+                <div class="skills-item">
+                  <img src="img/css.png" alt="">
+                  css
+                </div>
+
+                <div class="skills-item">
+                  <img src="img/js.png" alt="">
+                  js
+                </div>
+
+                <div class="skills-item">
+                  <img src="img/jquery2.png" alt="" style="">
+                  jquery
+                </div>
+
+                <div class="skills-item">
+                  <img src="img/jquery-ui.png" alt="" style="">
+                  jquery-ui
+                </div>
+              </div>
+
+              <div class="skills-row">
+                <div class="skills-item">
+                  <img src="img/react.png" alt="" style="">
+                  react
+                </div>
+
+                <div class="skills-item">
+                  <img src="img/vue.png" alt="" style="">
+                  vue
+                </div>
+              </div>
+
+              <div class="skills-row">
+
+                <div class="skills-item">
+                  <img src="img/less.png" alt="" style="">
+                  less
+                </div>
+
+                <div class="skills-item">
+                  <img src="img/bootstrap.png" alt="" style="">
+                  bootstrap
+                </div>
+
+                <div class="skills-item">
+                  <img src="img/inky-tmp.png" alt="" style="">
+                  <span class="caption">foundation for emails</span>
+                </div>
+
+                <div class="skills-item">
+                  <img src="img/scrollmagic.png" alt="" style="">
+                  scrollmagic
+                </div>
+
+                <div class="skills-item">
+                  <img src="img/gsap-2.png" alt="" style="">
+                  gsap
+                </div>
+              </div>
+
+              <div class="skills-row">
+                <div class="skills-item">
+                  <img src="img/webpack.png" alt="" style="">
+                  webpack
+                </div>
+
+                <div class="skills-item">
+                  <img src="img/gulp.png" alt="" style="">
+                  gulp
+                </div>
+
+                <div class="skills-item">
+                  <img src="img/jsonp.png" alt="" style="">
+                  jsonp
+                </div>
+              </div>
             </div>
 
+          </div>
+        </article>
 
-          </div>    
-        </div>
-        
-      </div>
+        <article class="section-block">
+          <div class="section-block-header">
+            <div class="section-block-header__label">
+              <span class="section-block-header__label-icon">
+                <i class="fas fa-archive"></i>
+              </span>
+            </div>
+            <h2 class="section-block-header__head">Примеры работ</h2>
+          </div>
+          <div class="section-block-body">
+
+            <div class="xz-accordion-header" data-body-to="0">
+              <div>
+                <h4 class="xz-accordion-head">примеры верстки</h4>
+                <span class="xz-accordion-open"><i class="fas fa-angle-down"></i></span>
+              </div>
+            </div>
+
+            <div class="xz-accordion-body" data-body="0">
+
+              <div class="card">
+                <div class="card-img-wrapper">
+                  <img src="img/layout/profile.png" alt="" class="card-img">
+                </div>
+                <div class="card-description">
+                  <div class="card-description-title-group">
+                    <h6 class="card-title">Верстка макета профиль для сайта kurierchikof.ru</h6>
+                    <span class="card-subtittle">html, css, jquery, bootstrap</span>
+                  </div>
+
+                  <div class="links-group">
+                    <a href="#" target="_blank" class="link-source">исходники</a>
+                    <a href="#" target="_blank" class="link-more">подробнее</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-img-wrapper">
+                  <img src="img/layout/abc-logistics.png" alt="" class="card-img">
+                </div>
+                <div class="card-description">
+                  <div class="card-description-title-group">
+                    <h6 class="card-title">Верстка лендинга ABC Logistics</h6>
+                    <span class="card-subtittle">html, css, jquery, jqueryui</span>
+                  </div>
+
+                  <div class="links-group">
+                    <a href="#" target="_blank" class="link-source">исходники</a>
+                    <a href="#" target="_blank" class="link-more">подробнее</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-img-wrapper">
+                  <img src="img/layout/form-calculation.png" alt="" class="card-img">
+                </div>
+                <div class="card-description">
+                  <div class="card-description-title-group">
+                    <h6 class="card-title">Верстка макета формы расчета для сайта kurierchikof.ru</h6>
+                    <span class="card-subtittle">html, css, bootstrap, jquery</span>
+                  </div>
+
+                  <div class="links-group">
+                    <a href="#" target="_blank" class="link-source">исходники</a>
+                    <a href="https://kurierchikof.ru/cabinet/site/calculation" target="_blank"
+                      class="link-more">подробнее</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-img-wrapper">
+                  <img src="img/layout/multicarta.png" alt="" class="card-img">
+                </div>
+                <div class="card-description">
+                  <div class="card-description-title-group">
+                    <h6 class="card-title">Верстка лендинга бизнес-форума «МультиКарта: технологии роста 2019»</h6>
+                    <span class="card-subtittle">html, css, jquery</span>
+                  </div>
+                  <div class="links-group">
+                    <a href="http://event.multicarta.ru/" target="_blank" class="link-more">подробнее</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="xz-accordion-header" data-body-to="1">
+              <div>
+                <h4 class="xz-accordion-head">примеры доработки сайтов</h4>
+                <span class="xz-accordion-open"><i class="fas fa-angle-down"></i></span>
+                <span class="xz-accordion-close hide"><i class="fas fa-angle-up"></i></span>
+              </div>
+            </div>
+
+            <div class="xz-accordion-body" data-body="1">
+
+              <div class="card">
+                <div class="card-img-wrapper">
+                  <img src="img/layout/dcss.png" alt="" class="card-img">
+                </div>
+                <div class="card-description">
+                  <div class="card-description-title-group">
+                    <h6 class="card-title">Создание адаптивной версии сайта dcss.ru</h6>
+                    <span class="card-subtittle">html, css, jquery</span>
+                  </div>
+                  <div class="links-group">
+
+                    <a href="http://dcss.ru/" target="_blank" class="link-more">подробнее</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-img-wrapper">
+                  <img src="img/layout/doctor.png" alt="" class="card-img">
+                </div>
+                <div class="card-description">
+                  <div class="card-description-title-group">
+                    <h6 class="card-title">Создание адаптивной версии сайта «Клиники доктора Александрова»</h6>
+                    <span class="card-subtittle">html, css, jquery</span>
+                  </div>
+                  <div class="links-group">
+                    <a href="http://mcda.smhost.ru/" target="_blank" class="link-more">подробнее</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-img-wrapper">
+                  <img src="img/layout/fbk.png" alt="" class="card-img">
+                </div>
+                <div class="card-description">
+                  <div class="card-description-title-group">
+                    <h6 class="card-title">Создание анимации на главной странице в разделе О Компании на сайте fbk.ru
+                    </h6>
+                    <span class="card-subtittle">html, css, jquery</span>
+                  </div>
+                  <div class="links-group">
+                    <a href="https://www.fbk.ru/" target="_blank" class="link-more">подробнее</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-img-wrapper">
+                  <img src="img/layout/saratovenergo.png" alt="" class="card-img">
+                </div>
+                <div class="card-description">
+                  <div class="card-description-title-group">
+                    <h6 class="card-title">Создание адаптивной версии главной страницы сайта «СаратовЭнерго»</h6>
+                    <span class="card-subtittle">html, css, jquery</span>
+                  </div>
+
+                  <div class="links-group">
+                    <a href="https://www.saratovenergo.ru/" target="_blank" class="link-more">подробнее</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </article>
+      </main>
 
     </div>
   </div>
 
-  <div class="rs-decription-block m-t-93">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <a id="ishop"></a>
-          <h2 class="block-text-head">Интернет-магазины на WordPress</h2>
-        </div>
-      </div>
 
-      <div class="row do-flex do-wrap">
-        
-        <div class="col-xs-8 col-sm-8 col-md-9 p-r-0 vsmall-100">
-
-          <div class="bc-light-grey c-p-9">
-            <h4 class="block-body-head">Сайт за 85 000</h4>
-            <p class="block-text"> Создадим сайт по Вашим индивидуальным пожеланиям. Проанализируем Ваших конкурентов в интернете 
-              и создадим уникальный дизайн-макет главной и внутренних страниц сайта, которые согласуем с заказчиком.
-            </p>  
-
-            <div class="do-flex do-wrap checked-list">
-            
-              <div class="checked-list-item do-flex">
-                <div>
-                  <img src="img/checked.png" alt="checked" class="img-marker">
-                </div>
-                <p class="item-text"><span class="item-text-head">Разработка главной страницы</span><br/> 
-                    Главная страница будет выглядеть так, как Вы захотите.
-                </p>
-              </div>
-
-              <div class="checked-list-item do-flex">
-                <div>
-                  <img src="img/checked.png" alt="checked" class="img-marker">
-                </div>
-                <p class="item-text"><span class="item-text-head">Разработка внутренних страниц</span><br/> 
-                  Внутренние страницы будут выглядеть так, как Вы захотите.
-                </p>
-              </div>
-
-              <div class="checked-list-item do-flex">
-                <div>
-                  <img src="img/checked.png" alt="checked" class="img-marker">
-                </div>
-                <p class="item-text"><span class="item-text-head">Написание текстов, обработка изображений</span><br/> 
-                  Вам не нужно тратить время на обработку изображений и написание текстов.
-                </p>
-              </div>
-
-
-              <div class="checked-list-item do-flex">
-                <div>
-                  <img src="img/checked.png" alt="checked" class="img-marker">
-                </div>
-                <p class="item-text"><span class="item-text-head">Согласование стадий разработки сайта</span><br/> 
-                  Вы будете в курсе Вашего проекта на этапе создания.
-                </p>
-              </div>
-
-              <div class="checked-list-item do-flex">
-                <div>
-                  <img src="img/checked.png" alt="checked" class="img-marker">
-                </div>
-                <p class="item-text"><span class="item-text-head">Хорошо продвигаются</span><br/> 
-                  Сайты с индивидуальным дизайном лучше продвигаются.
-                </p>
-              </div>
-
-              <div class="checked-list-item do-flex">
-                <div>
-                  <img src="img/checked.png" alt="checked" class="img-marker">
-                </div>
-                <p class="item-text"><span class="item-text-head">Поэтапная оплата</span><br/> 
-                  Оплата за сайт происходит в три этапа.
-                </p>
-              </div>
-
-
-              <div class="checked-list-item do-flex">
-                <div>
-                  <img src="img/checked.png" alt="checked" class="img-marker">
-                </div>
-                <p class="item-text"><span class="item-text-head">Хостинг и домен в подарок</span><br/> 
-                  Мы оплатим за Вас домен за первый год и хостинг на 6 месяцев.
-                </p>
-              </div>
-
-            </div>
-
-            <p class="checked-list-caption">Над сайтом будут работать семь специалистов
-            </p>
-          </div>  
-        </div>
-
-        <div class="col-xs-4 col-sm-4 col-md-3 p-l-0 vsmall-100">
-          <div class="bc-light-grey h-100 c-p-3 do-flex do-direction-column do-align-center">
-            <h3 class="price-head">85 <span>000</span><img src="img/rubl.png" alt=""></h3>
-
-            <p class="price-compare">Сравнить цены</p>
-
-            <button type="button" class="btn custom-btn custom-btn-green">Заказать</button>
-            <button type="button" class="btn custom-btn custom-btn-default">Посмотреть работы</button>
-  
-            <div class="img-group">
-              <p class="img-group-caption">Сайт соответствует  стандартам </p>
-              <div class="img-line do-flex do-justify-center do-small-direction-column do-small-align-center">
-                <img src="img/w3c-icon.png" alt="w3c">
-                <img src="img/developers_logo-icon.png" alt="developers_logo">
-              </div>  
-            </div>
-
-
-          </div>    
-        </div>
-
-        
-      </div>
-
-    </div>
-  </div>
-
-  <div class="rs-decription-block m-t-70 m-b-70">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <a id="lpage"></a>
-            <h2 class="block-text-head">Landing Page на WordPress </h2>
-          </div>
-        </div>
-  
-        <div class="row do-flex do-wrap">
-          
-          <div class="col-xs-8 col-sm-8 col-md-9 p-r-0 vsmall-100">
-  
-            <div class="bc-light-grey c-p-9">
-              <h4 class="block-body-head">Сайт за 85 000</h4>
-              <p class="block-text"> Создадим сайт по Вашим индивидуальным пожеланиям. Проанализируем Ваших конкурентов в интернете 
-                и создадим уникальный дизайн-макет главной и внутренних страниц сайта, которые согласуем с заказчиком.
-              </p>  
-  
-              <div class="do-flex do-wrap checked-list">
-              
-                <div class="checked-list-item do-flex">
-                  <div>
-                    <img src="img/checked.png" alt="checked" class="img-marker">
-                  </div>
-                  <p class="item-text"><span class="item-text-head">Разработка главной страницы</span><br/> 
-                      Главная страница будет выглядеть так, как Вы захотите.
-                  </p>
-                </div>
-  
-                <div class="checked-list-item do-flex">
-                  <div>
-                    <img src="img/checked.png" alt="checked" class="img-marker">
-                  </div>
-                  <p class="item-text"><span class="item-text-head">Разработка внутренних страниц</span><br/> 
-                    Внутренние страницы будут выглядеть так, как Вы захотите.
-                  </p>
-                </div>
-  
-                <div class="checked-list-item do-flex">
-                  <div>
-                    <img src="img/checked.png" alt="checked" class="img-marker">
-                  </div>
-                  <p class="item-text"><span class="item-text-head">Написание текстов, обработка изображений</span><br/> 
-                    Вам не нужно тратить время на обработку изображений и написание текстов.
-                  </p>
-                </div>
-  
-  
-                <div class="checked-list-item do-flex">
-                  <div>
-                    <img src="img/checked.png" alt="checked" class="img-marker">
-                  </div>
-                  <p class="item-text"><span class="item-text-head">Согласование стадий разработки сайта</span><br/> 
-                    Вы будете в курсе Вашего проекта на этапе создания.
-                  </p>
-                </div>
-  
-                <div class="checked-list-item do-flex">
-                  <div>
-                    <img src="img/checked.png" alt="checked" class="img-marker">
-                  </div>
-                  <p class="item-text"><span class="item-text-head">Хорошо продвигаются</span><br/> 
-                    Сайты с индивидуальным дизайном лучше продвигаются.
-                  </p>
-                </div>
-  
-                <div class="checked-list-item do-flex">
-                  <div>
-                    <img src="img/checked.png" alt="checked" class="img-marker">
-                  </div>
-                  <p class="item-text"><span class="item-text-head">Поэтапная оплата</span><br/> 
-                    Оплата за сайт происходит в три этапа.
-                  </p>
-                </div>
-  
-  
-                <div class="checked-list-item do-flex">
-                  <div>
-                    <img src="img/checked.png" alt="checked" class="img-marker">
-                  </div>
-                  <p class="item-text"><span class="item-text-head">Хостинг и домен в подарок</span><br/> 
-                    Мы оплатим за Вас домен за первый год и хостинг на 6 месяцев.
-                  </p>
-                </div>
-  
-              </div>
-  
-              <p class="checked-list-caption">Над сайтом будут работать семь специалистов
-              </p>
-            </div>  
-          </div>
-  
-          <div class="col-xs-4 col-sm-4 col-md-3 p-l-0 vsmall-100">
-            <div class="bc-light-grey h-100 c-p-3 do-flex do-direction-column do-align-center">
-              <h3 class="price-head">85 <span>000</span><img src="img/rubl.png" alt=""></h3>
-  
-              <p class="price-compare">Сравнить цены</p>
-  
-              <button type="button" class="btn custom-btn custom-btn-green">Заказать</button>
-              <button type="button" class="btn custom-btn custom-btn-default">Посмотреть работы</button>
-    
-              <div class="img-group">
-                <p class="img-group-caption">Сайт соответствует  стандартам </p>
-                <div class="img-line do-flex do-justify-center do-small-direction-column do-small-align-center">
-                  <img src="img/w3c-icon.png" alt="w3c">
-                  <img src="img/developers_logo-icon.png" alt="developers_logo">
-                </div>  
-              </div>
-  
-  
-            </div>    
-          </div>
-  
-          
-        </div>
-  
-      </div>
-  </div>
-  
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+  </script>
+  <script src="js/xzpreload.js"></script>
+  <script src="js/main.js"></script>
   <script src="js/script.js"></script>
+
 </body>
+
 </html>

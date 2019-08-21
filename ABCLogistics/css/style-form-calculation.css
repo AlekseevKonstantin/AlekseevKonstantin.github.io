@@ -1,0 +1,274 @@
+.form-calculation-section{
+  position: absolute;
+  top: 54.7%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url('../img/form-calculation-bc.png');
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-size: 100% auto;
+  background-color: #ff9800;
+  width: 1100px;
+  height: 560px;
+  display: flex;
+  box-shadow: 0 20px 50px rgba(30, 27, 25, 0.3);
+}
+
+.form-calculation-section__head{
+  position: absolute;
+  top: 57px;
+  left: 71px;
+  color: #ffffff;
+  font-family: "Open Sans ExtraBold", sans-serif;
+  font-size: 70px;
+  line-height: 70px;
+  width: 32.7%;
+}
+
+.form-calculation{
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.form-calculation-group{
+  width: 47%;
+  height: 100%;
+}
+
+.form-calculation-group-item{
+  width: 95%;
+  margin-bottom: 14px;
+}
+
+.form-calculation-group.p-l{
+  padding-left: 28px;
+  padding-top: 65px;
+  /* margin-top: -71px; */
+}
+
+.form-calculation-group.p-r{
+  /* padding-right: 35px; */
+  padding-top: 326px;
+  padding-left: 43px;
+}
+
+.form-calculation-group:nth-child(1){
+  order: 2;
+}
+
+.form-calculation-label{
+  display: block;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin-bottom: 7px;
+  padding-left: 2px;
+  padding-left: 3px;
+  letter-spacing: .4px;
+}
+
+.form-calculation-select{
+  width: 100%;
+  height: 40px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  color: #818181;
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 14px;
+}
+
+#progress-slider{
+  position: relative;
+  width: 95%;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #db8425;
+  margin-top: 20px;
+}
+
+.ui-slider-range{
+  width: 0;
+  height: 8px !important;
+  border-radius: 4px;
+  background-color: #e42d1e !important;
+}
+
+.ui-slider-handle{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  border: 5px solid rgba(164, 106, 42, 0.8);
+  border-radius: 50%;
+  background-color: #ffffff;
+  outline: none;
+}
+
+.ui-slider-handle:hover{
+  cursor: pointer;
+}
+
+#progress-slider-caption{
+  position: absolute;
+  top: 170%;
+  left: 0;
+  z-index: 1000;
+  color: #fff;
+  font-family: "Open Sans Regular", sans-serif;
+  font-size: 24px;
+  white-space: nowrap;
+}
+
+.radio-group{
+  display: flex;
+  margin-top: 42px;
+}
+
+.radio-group__subgroup{
+  display: flex;
+  flex-direction: column;
+  margin-right: 19.5%;
+}
+
+.radio-button,
+.checkbox{
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.radio-button__text,
+.checkbox__text{
+  display: inline-block;
+  position: relative;
+  padding: 0 0 0 29px;
+  cursor: pointer;
+  transition: color .3s;
+  color: #ffffff;
+  font-family: "Open Sans Bold", sans-serif;
+  font-size: 14px;
+  margin-top: 23px;
+}
+
+.radio-button__text::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 6px solid #31363f;
+  background-color: #ffffff;
+  opacity: 0.2;
+}
+
+.radio-button__text::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 6px solid #ffffff;
+  background-color: #e42d1e;
+  opacity: 0;
+  transition: all .4s;
+}
+
+.ridio-button-wrapper input[checked] + .radio-button__text::after{
+  transition: all .4s;
+  opacity: 1;
+}
+
+.checkbox__text::before{
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  background-image: url('../img/disable-check-icon.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 11px 8px;
+  background-color: #31363f;
+  border-radius: 2px;
+  opacity: 0.2;
+}
+
+.checkbox__text::after{
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  background-image: url('../img/active-check-icon.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 11px 8px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  opacity: 0;
+  transition: all .4s;
+}
+
+.checkbox-wrapper input[checked] + .checkbox__text::after{
+  transition: all .4s;
+  opacity: 1;
+}
+
+.btn-submit-calculate{
+  background-color: #fff;
+  color: #2b2933;
+  font-family: "Open Sans Semibold", sans-serif;
+  padding: 18px 30px;
+  margin-top: 36px;
+  border: 2px solid #fff;
+  transition: all .5s;
+}
+
+.btn-submit-calculate:hover{
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  color: #fff;
+}
+
+.form-submit-group{
+  width: 50%;
+}
+
+.form-submit-group.fade{
+  display: none;
+}
+
+.submit__title{
+  color: #ffffff;
+  font-family: "Open Sans Condensed Bold", sans-serif;
+  font-size: 30px;
+  margin-bottom: -16px;
+  margin-top: 16px;
+}
+
+.submit-value{
+  color: #ffffff;
+  font-family: "Open Sans Condensed Light", sans-serif;
+  font-size: 120px;
+  white-space: nowrap;
+}
+
+.submit-value__valuta{
+  color: #ffffff;
+  font-family: "Open Sans Condensed Bold", sans-serif;
+  font-size: 30px;
+  margin-left: 7px;
+}
+

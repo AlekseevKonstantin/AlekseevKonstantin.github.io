@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Архив заказов</title>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style-profile.css">
+  <link rel="stylesheet" href="css/all.min.css">
+
+</head>
+<body>
+
+  <div class="kurierchikof-rs-top-menu">
+    <nav class="navbar navbar-default navbar-static-top custom-background-white custom-nav">
+      <div class="container h-100 custom-small-h100">
+        <div class="navbar-header h-100 pull-left custom-small-h100">
+          <a class="navbar-brand do-flex do-align-center" href="#"><img class="custom-logo-img" src="img/logo.png" alt="Logo"></a>
+        </div>
+
+        <div class="navbar-header pull-right custom-small-h100 custom-align-btn">
+          <button type="button" 
+                  class="navbar-toggle collapsed" 
+                  data-toggle="collapse" 
+                  data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse custom-big-h-100 w-100p" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav h-100 do-flex do-align-center m-l-1p w-25p custom-first-line">
+            <li class="custom-nav-item" style="margin-left: -3px;"><a href="#" class="no-word-wrap custom-nav-link">Мои заказы <span class="sr-only">(current)</span></a></li>
+            <li class="custom-nav-item"><a href="#" class="custom-nav-link">Тарифы</a></li>
+          </ul>
+
+          <div class="do-flex do-no-wrap do-justify-end do-align-center h-100 custom-second-line">
+            <form class="navbar-form h-100 col-xs-4 do-flex do-align-center p-0 ">
+              <button type="submit" class="btn custom-btn-create-order do-flex do-align-center do-justify-center">
+                <span> Создать заказ </span>
+              </button>
+              <button type="button" class="btn custom-btn-cog p-0 ">
+                <span class="custom-fas-wrapper">
+                  <i class="fas fa-cog custom-cog-color"></i>
+                  <i class="fas fa-question-circle custom-question-icon" style="vertical-align: top;"></i>
+                </span>
+              </button>
+            </form>
+            
+            <ul class="nav navbar-nav navbar-right h-100 do-flex do-justify-end custom-thrid-line custom-m-t-10">
+              <li class="dropdown w-100p h-100">
+                <a href="#" class="dropdown-toggle do-flex do-align-center do-no-wrap custom-nav-btn-link"
+                            data-toggle="dropdown" 
+                            role="button" 
+                            aria-haspopup="true" 
+                            aria-expanded="false">
+                  
+                  <div class="custom-btn-img do-flex do-align-center do-justify-end">
+                    <img  src="img/user.png" alt="">
+                  </div>
+                  <div class="custom-btn-info">
+                    <h6 class="custom-btn-head">Бочкарева Наталья</h6>
+                    <p class="custom-btn-caption">заказчик(СПб)</p>
+                  </div>
+                </a>
+
+                <ul class="dropdown-menu custom-dropdown fa-ul">
+                  <li class="do-flex do-direction-column do-align-start">
+                    <p class="custom-dropdown-comment">
+                      <span class="custom-dropdown-balance">Баланс: 0 р.</span> 
+                      <span class="custom-dropdown-bonuce">Бонусы: 0</span></p>
+                    <p class="custom-dropdown-comment">Доставки: 0 за декабрь</p>              
+                    <p class="custom-dropdown-comment">Скидка: %</p>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li class="custom-dropdown-item fa-li">
+                    <a href="#" class="custom-dropdown-link">
+                      <i class="fas fa-user fa-fw"></i>&ensp;
+
+                      <span style="margin-left: -7px;">Профиль</span>
+                    </a>
+                  </li>
+                  <li class="custom-dropdown-item fa-li">
+                    <a href="#" class="custom-dropdown-link">
+                      <i class="fas fa-money-bill-alt fa-fw"></i>&ensp;
+                      <span style="margin-left: -2px;">Баланс</span>
+                    </a>
+                  </li>
+                  
+                  <li class="custom-dropdown-item fa-li">
+                    <a href="#" class="custom-dropdown-link">
+                      <i class="fas fa-map-marker-alt fa-fw"></i>&ensp;
+                      <span style="margin-left: -8px;">Пункты выдачи</span>
+                    </a>
+                  </li>
+                  <li class="custom-dropdown-item m-b-5 fa-li">
+                    <a href="#" class="custom-dropdown-link">
+                      <i class="fas fa-sign-out-alt fa-fw"></i>&ensp;
+                      <span style="margin-left: -5px;">Выход</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+        
+      </div>
+    </nav>
+  </div> 
+
+  <div class="kurierchikof-rs-profile-form m-t-n18">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-sm-12 m-b-17 do-flex do-justify-space-between do-vsmall-direction-column do-vsmall-align-start">
+          <h2 class="custom-head">Профиль</h2>
+
+          <ul class="nav do-flex do-align-center do-vsmall-direction-column  do-vsmall-align-center h-100 m-t-n5">
+            <li role="presentation" class="custom-wrapper-nav-link">
+              <a href="#" class="custom-nav-link" data-toggle="modal" data-target="#editModal">Редактировать профиль</a>
+            </li>
+          </ul>  
+        </div>
+
+        <div class="col-sm-4 do-flex do-direction-column bc-white col-p-0 m-p calc-col-4-width">
+
+            <div style="height: 100%;">
+              <img src="img/img_prof.jpg" alt="" class="custom-user-photo">
+            </div>
+            <div class="custom-user-info">
+              <h5 class="custom-user-name">Бочкарева Наталья Эдуардовна</h5>
+              <p class="custom-user-name-caption">Тип аккаунта: Заказчик</p>
+            </div>
+
+            <div class="custom-user-add-info">
+              <div class="do-flex do-vsmall-direction-column do-vsmall-align-start do-wrap">
+                <p class="custom-user-balance"><i class="fas fa-money-bill" style="color: #929594; margin-right: 5px;"></i>Баланс: 1 000 руб</p>
+                <p class="custom-user-bonuce"><i class="fas fa-star" style="color: #929594; margin-right: 5px;"></i>Бонусы: 0</p> 
+              </div>
+              <p class="custom-user-delivery"><i class="fas fa-truck" style="color: #929594; margin-right: 5px;"></i>Доставки: 0 за декабрь / 0 за ноябрь</p>
+              <p class="custom-user-discounts"><i class="fas fa-gem" style="color: #929594; margin-right: 5px;"></i>Скидка: %</p>
+
+            </div>
+
+            <div class="do-flex do-align-center do-wrap custom-btn-group">
+              <button type="button" class="btn custom-btn-edit-profil" data-toggle="modal" data-target="#editModal">
+                Редактировать профиль
+              </button>
+              <a href="#" class="custom-link-edit">Изменить фото</a>
+            </div>
+           
+        </div>
+
+        <div class="col-sm-8 bc-white col-p-0 m-p calc-col-8-width">
+
+          <div class="custom-info-wrapper">
+            <div class="custom-main-info">
+              <h5 class="custom-info-head m-b-20"><i class="fas fa-mail-bulk" style="color: #929594; margin-right: 8px; font-size: 18px;"></i>Основная информация</h5>
+              <div class="do-flex do-vsmall-direction-column do-vsmall-align-start">
+                <div>
+                  <p class="custom-info-text">Телефон:  +7 (981) 771-06-50</p>
+                  <p class="custom-info-text">Email: birvika93@mail.ru</p>
+                  <p class="custom-info-text">Город: СПб</p>
+                </div>  
+                <div class="p-l-30">
+                  <p class="custom-info-text">Тип аккаунта:  Заказчик</p>  
+                  <p class="custom-info-text">Дата регистрации:  12 декабря в 12.12</p>    
+                  <p class="custom-info-text">Сайт:  none</p>
+                </div> 
+              </div>  
+            </div>   
+          </div>
+
+          <div class="custom-info-wrapper">
+            <div class="custom-info-on-legal-entity ">
+              <div class="do-flex w-100p">
+                <i class="fas fa-user-tie" style="color: #929594; margin-right: 8px; font-size: 18px;"></i>
+                <div class="custom-info-header">
+                  <h5 class="custom-info-head">Информация о юридическом лице</h5>
+                  <p class="custom-info-caption">Для оплаты по безналичному расчету</p>
+                </div> 
+              </div>
+              <p class="m-t-20">Не указана</p>
+            </div>   
+             
+          </div>
+
+          <div class="custom-info-wrapper">
+            <div class="custom-info-on-legal-entity ">
+              <div class="do-flex w-100p">
+                <i class="fas fa-money-bill" style="color: #929594; margin-right: 8px; font-size: 18px;"></i>
+                <div class="custom-info-header">
+                  <h5 class="custom-info-head">Банковская информация</h5>
+                  <p class="custom-info-caption">Для кассового обслуживания</p>
+                </div> 
+              </div>
+              <p class="m-t-20">Не указана</p>
+            </div>   
+              
+          </div>
+
+          <div class="custom-info-wrapper">
+            <div class="custom-custom-info">
+              <div class="do-flex">
+                <i class="fas fa-sliders-h" style="color: #929594; margin-right: 8px; font-size: 18px;"></i>
+                <div class="custom-info-header">
+                  <h5 class="custom-info-head m-b-20">Настройки</h5>
+                </div>
+              </div>  
+
+              <div class="do-flex do-align-center m-b-12">
+                <div class="custom-switch ">
+                  <div class="custom-switch-slider"></div>
+                  <input type="checkbox">
+                </div>
+                <p class="custom-switch-caption">Уведомления на email</p>
+              </div>
+
+              <div class="do-flex do-align-center">
+                <div class="custom-switch">
+                  <div class="custom-switch-slider"></div>
+                  <input type="checkbox" checked>
+                </div>
+                <p class="custom-switch-caption">Автоматическое архивирование заказов<i class="fas fa-question-circle" style="font-size: 14px; color: #929594; margin-left: 7px;"></i></p>
+              </div>
+            </div>  
+          </div>  
+          
+          <div class="custom-info-wrapper">
+            <div class="custom-custom-info">
+              <div class="do-flex">
+                <i class="fas fa-users" style="color: #929594; margin-right: 8px; font-size: 18px;"></i>
+                <div class="custom-info-header">
+                  <h5 class="custom-info-head m-b-20">Реферальная программа    </h5>
+                </div>
+              </div> 
+              <p class="custom-info-text">Переходов по реф. ссылкам  0</p>
+              <p class="custom-info-text">Регистраций по реф. ссылкам  0</p>
+              <p class="custom-info-text">Ваша реферальная ссылка  https://peshkariki.ru/registry/283521</p>
+              <p class="custom-info-text"><a href="#" class="custom-info-link">Правила партнерской программы</a></p>
+            </div>
+          </div>
+
+          <div class="do-flex do-small-justify-center">
+            <button type="button" class="btn custom-btn-del-profile" data-toggle="modal" data-target="#delModal">
+              Удалить профиль
+            </button>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="kurierchikof-rs-modal-edit-form">
+    <div class="modal fade" id="editModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="custom-modal-head">Редактировать профиль</h4>
+            <button type="button" class="close custom-btn-close" data-dismiss="modal" aria-label="Close">
+              <img src="img/close.png" alt="">
+            </button>
+          </div>
+
+          <div class="modal-body">
+
+            <form class="form-horizontal">
+
+              <div class="form-group">
+
+                <div class="col-sm-12 m-b-10">
+                  <h5 class="custom-modal-group-head"><i class="fas fa-mail-bulk" style="color: #929594; margin-right: 8px; font-size: 18px;"></i>Основная информация</h5>
+                </div>
+
+
+                <div class="col-sm-6 p-r-7_5">
+                  <label for="inputName" class="custom-input-title m-b-12">
+                      ФИО*
+                  </label>
+                  <div class="inner-addon left-addon m-b-15">
+                    <i class="fas fa-user fa-fw custom-icon"></i>
+                    <input type="text" class="form-control" id="inputName" placeholder="Бочкарева Наталья Эдуардовна">
+                  </div> 
+                </div>
+
+                <div class="col-sm-6 p-l-7_5">
+                  <label for="phoneNum" class="custom-input-title m-b-12">
+                      Телефон*
+                  </label>
+                  <div class="inner-addon left-addon m-b-15">
+                    <i class="fas fa-mobile fa-fw custom-icon"></i>
+                    <input type="text" class="form-control" id="phoneNum" placeholder="+7 (981) 771-06-50">
+                  </div> 
+                </div>
+
+
+                <div class="col-sm-4 p-r-7_5">
+                  <label for="inputEmail" class="custom-input-title m-b-12">
+                      E-mail*
+                  </label>
+                  <div class="inner-addon left-addon m-b-15">
+                    <i class="fas fa-envelope fa-fw custom-icon"></i>
+                    <input type="text" class="form-control" id="inputEmail" placeholder="birvika93@mail.ru">
+                  </div> 
+                </div>
+
+                <div class="col-sm-4 p-r-7_5 p-l-7_5">
+                  <label for="inputCity" class="custom-input-title m-b-12">
+                      Город*
+                  </label>
+                  <div class="inner-addon left-addon m-b-15">
+                    <i class="fas fa-globe fa-fw custom-icon"></i>
+                    <i class="fas fa-caret-down custom-arrow-down"></i>
+                    <select class="w-100p" id="inputCity">
+                      <option value="Санкт-Петербург" selected>Санкт-Петербург</option>
+                      <option value="Москва">Москва</option>
+                    </select>
+                  </div> 
+                </div>
+
+                <div class="col-sm-4 p-l-7_5">
+                  <label for="inputSite" class="custom-input-title m-b-12">
+                      Сайт
+                  </label>
+                  <div class="inner-addon left-addon m-b-15">
+                    <i class="fas fa-laptop fa-fw custom-icon"></i>
+                    <input type="text" class="form-control" id="inputSite" placeholder="www.">
+                  </div> 
+                </div>
+
+               
+
+                <div class="col-sm-6 p-r-7_5">
+                  <label for="inputPass" class="custom-input-title m-b-12">
+                      Пароль*
+                  </label>
+                  <div class="inner-addon left-addon m-b-15">
+                    <i class="fas fa-lock fa-fw custom-icon"></i>
+                    <input type="text" class="form-control" id="inputPass" placeholder="***">
+                  </div> 
+                </div>
+
+                <div class="col-sm-6 p-l-7_5">
+                  <label for="inputComPass" class="custom-input-title m-b-12">
+                      Подтверждение пароля*
+                  </label>
+                  <div class="inner-addon left-addon m-b-15">
+                    <i class="fas fa-lock fa-fw custom-icon"></i>
+                    <input type="text" class="form-control" id="inputComPass" placeholder="***">
+                  </div> 
+                </div>
+
+              </div>
+
+            </form>
+
+           
+            <div class="m-n30 custom-spliter"></div>
+            
+            <form class="form-horizontal">
+            
+              <div class="form-group">  
+              
+                
+                <div class="col-sm-12 m-b-10">
+                  <div class="custom-info-on-legal-entity ">
+                    <div class="do-flex w-100p">
+                      <i class="fas fa-user-tie" style="color: #929594; margin-right: 8px; font-size: 18px;"></i>
+                      <div class="custom-info-header">
+                        <h5 class="custom-modal-group-head">Информация о юридическом лице</h5>
+                        <p class="custom-modal-head-caption">Для оплаты по безналичному расчету</p>
+                      </div> 
+                    </div>
+                  </div> 
+                </div>
+
+               
+
+                <div class="col-sm-4 p-r-7_5">
+                  <label for="inputFirmName" class="custom-input-title m-b-12">
+                      Название*
+                  </label>
+                  <div class="inner-addon left-addon-small m-b-15">
+                    <input type="text" class="form-control" id="inputFirmName" placeholder="">
+                  </div> 
+                </div>
+
+                <div class="col-sm-4 p-r-7_5 p-l-7_5">
+                  <label for="inputINN" class="custom-input-title m-b-12">
+                      № ИНН*
+                  </label>
+                  <div class="inner-addon left-addon m-b-15">
+                    <i class="fas fa-caret-down  custom-arrow-down"></i>
+                    <select class="w-100p" id="inputINN">
+                      <option value="" label="     " selected> </option>   
+                      <option value="67868666868796786">67868666868796786</option>
+                      <option value="78966868768687688">78966868768687688</option>
+                    </select>
+                  </div> 
+                </div>
+
+                <div class="col-sm-4 p-l-7_5">
+                  <label for="inputOGRN" class="custom-input-title m-b-12">
+                      № ОГРН*
+                  </label>
+                  <div class="inner-addon left-addon-small m-b-15">
+                    <input type="text" class="form-control" id="inputOGRN" placeholder="">
+                  </div> 
+                </div>
+
+                
+
+                <div class="col-sm-6 p-r-7_5">
+                  <label for="inputDirector" class="custom-input-title m-b-12">
+                      ФИО директора*
+                  </label>
+                  <div class="inner-addon left-addon-small m-b-15">
+                    <input type="text" class="form-control" id="inputDirector" placeholder="">
+                  </div> 
+                </div>
+
+                <div class="col-sm-6 p-l-7_5">
+                  <label for="inputKPP" class="custom-input-title m-b-12">
+                      № КПП*
+                  </label>
+                  <div class="inner-addon left-addon-small m-b-15">
+                    <input type="text" class="form-control" id="inputKPP" placeholder="">
+                  </div> 
+                </div>
+              </div>
+
+            </form>  
+
+            <div class="m-n30 custom-spliter"></div>
+
+            <form class="form-horizontal">
+
+              <div class="form-group">  
+
+                <div class="col-sm-12 m-b-10">
+                  <div class="custom-info-on-legal-entity ">
+                    <div class="do-flex w-100p">
+                      <i class="fas fa-user-tie" style="color: #929594; margin-right: 8px; font-size: 18px;"></i>
+                      <div class="custom-info-header">
+                        <h5 class="custom-modal-group-head">Банковская информация</h5>
+                        <p class="custom-modal-head-caption">Для кассового обслуживания</p>
+                      </div> 
+                    </div>
+                    
+                  </div> 
+                </div>
+
+
+
+                <div class="col-sm-6 p-r-7_5">
+                  <label for="inputBIK" class="custom-input-title m-b-12">
+                      БИК*
+                  </label>
+                  <div class="inner-addon left-addon-small m-b-15">
+                    <input type="text" class="form-control" id="inputBIK" placeholder="">
+                  </div> 
+                </div>
+
+                <div class="col-sm-6 p-l-7_5">
+                  <label for="inputScore" class="custom-input-title m-b-12">
+                      Расчетный счет*
+                  </label>
+                  <div class="inner-addon left-addon-small m-b-15">
+                    <input type="text" class="form-control" id="inputScore" placeholder="">
+                  </div> 
+                </div>
+
+                
+
+                <div class="col-sm-6 p-r-7_5">
+                  <label for="inputCorScore" class="custom-input-title m-b-12">
+                      Корреспондентский счет*
+                  </label>
+                  <div class="inner-addon left-addon-small m-b-15">
+                    <input type="text" class="form-control" id="inputCorScore" placeholder="">
+                  </div> 
+                </div>
+
+                <div class="col-sm-6 p-l-7_5">
+                  <label for="inputUrAddres" class="custom-input-title m-b-12">
+                      Юридический адрес*
+                  </label>
+                  <div class="inner-addon left-addon-small  m-b-15">
+                    <input type="text" class="form-control" id="inputUrAddres" placeholder="">
+                  </div> 
+                </div>
+              
+              </div>
+
+            </form>  
+
+            <div class="m-n30 custom-spliter"></div>
+
+            <form class="form-horizontal">
+
+              <div class="form-group">  
+
+
+                <div class="col-sm-12 ">
+                    
+                  <div class="custom-info-on-legal-entity ">
+                    <div class="do-flex m-b-10 w-100p m-b-10">
+                        <i class="fas fa-sliders-h" style="color: #929594; margin-right: 8px; font-size: 18px;"></i>
+                      <div class="custom-info-header">
+                        <h5 class="custom-modal-group-head">Настройки</h5>
+                      </div> 
+                    </div>
+        
+                    <div class="do-flex do-align-center m-b-12">
+                      <div class="custom-switch ">
+                        <div class="custom-switch-slider"></div>
+                        <input type="checkbox">
+                      </div>
+                      <p class="custom-switch-caption">Уведомления на email</p>
+                    </div>
+      
+                    <div class="do-flex do-align-center">
+                      <div class="custom-switch">
+                        <div class="custom-switch-slider"></div>
+                        <input type="checkbox" checked>
+                      </div>
+                      <p class="custom-switch-caption">Автоматическое архивирование заказов<i class="fas fa-question-circle" style="font-size: 14px; color: #929594; margin-left: 7px;"></i></p>
+                    </div>
+
+                    </div>  
+                </div> 
+
+
+                <div class="col-sm-12 m-t-30">
+                  <button type="submit" class="btn custom-btn-save">Сохранить</button>
+                  <button type="reset" class="btn custom-btn-cancel"  data-dismiss="modal" aria-label="Close">Отмена</button>
+                </div>
+                  
+              </div>
+
+            </form>
+           
+          </div>
+        </div>
+      </div>  
+    </div>          
+  </div>
+
+  <div class="kurierchikof-rs-modal-del-form">
+    <div class="modal fade " id="delModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            
+          <div class="modal-body">
+            <h4 class="custom-modal-head do-text-align-center m-t-10">Продолжить?</h4>
+            <button type="button" class="close custom-btn-close" data-dismiss="modal" aria-label="Close">
+              <img src="img/close.png" alt="">
+            </button>
+
+            <p class="m-t-30 do-text-align-center">Вы уверены, что хотите удалить Ваш аккаунт? Восстановление 
+              профиля и последующая регистрация с используемыми электронной 
+              почтой birvika93@mail.ru и номером телефона +79817710650 невозможны. 
+              По всем вопросам обращайтесь в тех. поддержку.
+            </p>
+
+            <div class="do-flex do-align-center do-justify-center m-t-30">
+              <button type="submit" class="btn custom-btn-ok">Ок</button>
+              <button type="reset" class="btn custom-btn-cal"  data-dismiss="modal" aria-label="Close">Отмена</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>          
+
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/script.js"></script>
+  
+</body>
+</html>

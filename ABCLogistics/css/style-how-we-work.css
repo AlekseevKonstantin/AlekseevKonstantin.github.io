@@ -1,0 +1,42 @@
+.how-we-work{
+  position: relative;
+  background-color: #272b31;
+  width: 100%;
+  display: flex;
+  padding-top: 5.3%;
+  padding-bottom: 25.5%;
+}
+
+.how-we-work__head{
+  font-size: 80px;
+  line-height: 90px;
+  font-family: "Open Sans ExtraBold", sans-serif;
+  /* background: -moz-linear-gradient( -41deg, #e42d1e 0%, #f88a11 100%);
+  background: -webkit-linear-gradient( -41deg, rgb(228,45,30) 0%, rgb(248,138,17) 100%);
+  background: -ms-linear-gradient( -41deg, rgb(228,45,30) 0%, rgb(248,138,17) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+ 
+  width: 40.5%;
+  margin-right: 4.2%;
+  margin-top: -7px;
+  /* color: rgb(228,45,30); */
+  padding-left: 16.8%;
+}
+
+.how-we-work-text-block{
+  width: 45%;
+  margin-top: 9px;
+}
+
+.how-we-work__text{
+  color: #ffffff;
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.how-we-work__text:first-child{
+  margin-bottom: 29px;
+}

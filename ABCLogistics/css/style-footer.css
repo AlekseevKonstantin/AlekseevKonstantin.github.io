@@ -1,0 +1,45 @@
+.footer{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #272b31;
+  padding-top: 47px;
+  padding-bottom: 45px;
+}
+
+.footer__img{
+  margin-right: 9%;
+  margin-left: 17%;
+}
+
+.footer-info{
+  display: flex;
+  width: 60%;
+}
+
+.footer-links{
+  display: flex;
+}
+
+.footer__copyright,
+.footer__private-politics,
+.footer__site-map{
+  color: #a1a4a7;
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 12px;
+  transition:  color .5s ease;
+}
+
+.footer__copyright{
+  margin-right: 35%;
+}
+
+.footer__private-politics{
+  margin-right: 24px;
+}
+
+.footer__private-politics:hover,
+.footer__site-map:hover{
+  color: #ffffff;
+}
