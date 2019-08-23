@@ -13,7 +13,10 @@ $(document).ready(function () {
         }
       })
 
-      $('.card-img-wrapper').css('height', minHeight + 'px');
+      $('.card-img-wrapper').css({
+        'height': minHeight + 'px',
+        'max-height': minHeight + 'px'
+      });
 
   })();
 
