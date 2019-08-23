@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-  (function () {
+  /* (function () {
 
       var maxHeight = -1;
 
@@ -15,7 +15,7 @@ $(document).ready(function () {
 
       $('.card-description').css('height', maxHeight + 'px');
 
-  })();
+  })(); */
 
   $('.xz-accordion-body').hide();
 

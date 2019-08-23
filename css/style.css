@@ -439,6 +439,7 @@ h6, .h6 {
 }
 
 .card-img-wrapper{
+  flex-grow: 1;
   width: 100%;
   height: 150px;
   overflow: hidden;
@@ -452,6 +453,7 @@ h6, .h6 {
 }
 
 .card-description{
+  flex-grow: 1;
   width: 100%;
   padding: 7px;
   display: flex;
