@@ -85,6 +85,10 @@ h6, .h6 {
   align-items: center;
 }
 
+.section-block-header__head{
+  font-weight: 700;
+}
+
 .section-block-body{
   margin-left: calc(40px + 2%); 
 }
@@ -601,6 +605,7 @@ h6, .h6 {
   .person-name{
     margin-top: 34px;
     font-size: 30px;
+    font-weight: 700;
   }
 
   .person-image{
