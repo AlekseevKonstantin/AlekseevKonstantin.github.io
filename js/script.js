@@ -1,21 +1,21 @@
 $(document).ready(function () {
 
-  /* (function () {
+  (function () {
 
-      var maxHeight = -1;
+      var minHeight = 1000000000000;
 
-      $('.card-description').each(function () {
+      $('.card-img-wrapper').each(function () {
 
         var height = parseFloat( $(this).css('height') );
 
-        if (height > maxHeight) {
-          maxHeight = height;
+        if (height < maxHeight) {
+          minHeight = height;
         }
       })
 
-      $('.card-description').css('height', maxHeight + 'px');
+      $('.card-img-wrapper').css('height', minHeight + 'px');
 
-  })(); */
+  })();
 
   $('.xz-accordion-body').hide();
 
