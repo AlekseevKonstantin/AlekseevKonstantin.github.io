@@ -551,6 +551,12 @@ h6, .h6 {
   max-width: 150px;
 }
 
+.small-text{
+  color: #fff;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+}  
+
 /*  */
 
 .do-flex{
