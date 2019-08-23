@@ -467,6 +467,7 @@ h6, .h6 {
   line-height: 1.1;
   text-align: left;
   width: 100%;
+  font-weight: 700;
 }
 
 .card-description .card-subtittle{
@@ -494,6 +495,7 @@ h6, .h6 {
   padding-bottom: 3px;
   margin-bottom: 0;
   color: #4fb883;
+  font-weight: 700;
 }
 
 .links-group{
