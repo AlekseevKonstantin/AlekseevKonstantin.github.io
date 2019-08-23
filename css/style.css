@@ -552,9 +552,9 @@ h6, .h6 {
 }
 
 .small-text{
-  color: #fff;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 18px;
+  color: #fff !important;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+  font-size: 18px !important;
 }  
 
 /*  */
