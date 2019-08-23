@@ -8,7 +8,7 @@ $(document).ready(function () {
 
         var height = parseFloat( $(this).css('height') );
 
-        if (height < maxHeight) {
+        if (height < minHeight) {
           minHeight = height;
         }
       })
