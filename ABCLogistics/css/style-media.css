@@ -786,6 +786,7 @@
   .how-we-work__head{
     font-size: 36px;
     line-height: 45px;
+    max-height: 30px;
   }
 
   .form-calculation-label{
