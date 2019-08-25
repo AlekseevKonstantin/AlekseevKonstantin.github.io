@@ -784,9 +784,10 @@
   }
 
   .how-we-work__head{
-    font-size: 36px;
+    font-size: 30px;
     line-height: 45px;
     max-height: 30px;
+    padding-left: 20px;
   }
 
   .form-calculation-label{
