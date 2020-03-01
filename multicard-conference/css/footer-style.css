@@ -1,0 +1,38 @@
+.footer{
+  display: flex;
+  justify-content: center;
+  height: 425px;
+  background-image: url(../img/bc-footer.png);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  /* background-size: auto 100%; */
+  padding-top: 32px;
+}
+
+.footer-header{
+  display: flex;
+  flex-direction: column;
+  margin-left: 66px;
+  padding-top: 43px;
+}
+
+.footer-header__title,
+.footer-header__head,
+.multicarte-link{
+  color: #25282c;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.multicarte-link{
+  color: #064894;
+  margin-top: 19px;
+}
+
+@media (max-width: 1700px) {
+  .footer{
+    background-size: auto 90%;
+  }
+}

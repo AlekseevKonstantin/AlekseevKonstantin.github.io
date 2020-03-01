@@ -1,0 +1,240 @@
+.programm {
+  display: flex;
+  justify-content: center;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 193px;
+  /* padding-bottom: 140px; */
+}
+
+.programm .container {
+  padding-left: 80px;
+  flex-direction: column;
+}
+
+.programm-item {
+  display: flex;
+  margin-top: 66px;
+}
+
+.programm-item:first-child {
+  margin-top: 72px;
+}
+
+.programm-date {
+  display: flex;
+  /* padding-bottom: 33px; */
+  height: 66px;
+  margin-top: 50px;
+  border-bottom: 1px solid #d0d5dc;
+}
+
+.programm-date-item {
+  margin-right: 100px;
+}
+
+.programm-date-item:last-child {
+  margin-right: 0;
+}
+
+.programm-date-item-link {
+  color: #4c5764;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.programm-date-item-link{
+  display: block;
+  height: 100%;
+  border-bottom: 2px solid transparent;
+  transition: color .5s, border-color .5s;
+}
+
+.programm-date-item-link:hover{
+  color: #064894;
+  border-bottom: 2px solid #ff6c00;
+}
+
+.programm-date-item-link.active{
+  color: #064894;
+  border-bottom: 2px solid #ff6c00;
+}
+
+
+.programm-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* programm location */
+
+.programm-location{
+  padding-top: 20px;
+}
+
+.programm-location__title,
+.programm-location__pin,
+.programm-location-adress {
+  color: #798a9f;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.programm-location__title {
+  font-weight: 300;
+}
+
+.programm-location__pin {
+  font-weight: 600;
+}
+
+/* programm item time */
+
+.programm-item-time {
+  margin-right: 103px;
+  white-space: nowrap;
+  width: 120px;
+  min-width: 120px;
+}
+
+.programm-item-time__from,
+.programm-item-time__separator,
+.programm-item-time__to {
+  color: #798a9f;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+/* programm item body */
+
+.programm-group{
+  display: none;
+}
+
+.programm-group.active{
+  display: block;
+}
+
+.programm-item-header__head {
+  color: #25282c;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+
+.programm-item-heder__caption {
+  color: #25282c;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 35px;
+}
+
+.programm-item-more {
+  margin-top: 33px;
+}
+
+.programm-item-more a {
+  color: #265ca1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #265ca1;
+  display: none;
+}
+
+.programm-item-more a.active {
+  display: inline-block;
+}
+
+/* moderator */
+
+.programm-item-moderator {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.programm-item-moderator-about {
+  margin-left: 20px;
+}
+
+.programm-item-moderator .img-wrapper{
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.programm-item-moderator .img-wrapper img {
+  width: 80px;
+  height: 80px;
+}
+
+.programm-item-moderator-about,
+.programm-item-moderator-about p {
+  color: #25282c;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.programm-item-moderator-about b{
+  font-weight: 700;
+}
+
+.programm-item-moderator-about p:nth-child(2) {
+  /* font-weight: 700; */
+}
+
+/*  */
+.programm-item-info {
+  color: #25282c;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+  display: none;
+  padding-top: 37px;
+}
+
+.programm-item-info ul{
+  list-style-type: none;
+  padding-left: 40px;
+  margin-bottom: 40px;
+}
+
+.programm-item-info ul:last-child{
+  margin-bottom: 0;
+}
+
+.programm-item-info ul li {
+  position: relative;
+}
+
+.programm-item-info ul li::before {
+  content: '';
+  width: 20px;
+  height: 1px;
+  position: absolute;
+  top: 15px;
+  left: -35px;
+  background-image: url('../img/li-marker.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.programm-item-info p{
+  margin-bottom: 25px;
+}
+
+.programm-item-info p:last-child{
+  margin-bottom: 0;
+}
