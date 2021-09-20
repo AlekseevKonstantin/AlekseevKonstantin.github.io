@@ -46,5 +46,5 @@ $(document).ready(function () {
 
   setTimeout(function() {
     $('.wrapper.hidden').removeClass('hidden');
-  }, 300);
+  }, 400);
 });
