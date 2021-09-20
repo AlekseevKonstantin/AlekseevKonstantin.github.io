@@ -1,10 +1,6 @@
 $(document).ready(function () {
 
-  setTimeout(function() {
-    $('.wrapper.hidden').removeClass('hidden');
-  }, 300)
-
-
+  
   (function () {
 
       var minHeight = 1000000000000;
@@ -47,4 +43,8 @@ $(document).ready(function () {
       $(this).addClass('active');
     }
   });
+
+  setTimeout(function() {
+    $('.wrapper.hidden').removeClass('hidden');
+  }, 300);
 });
